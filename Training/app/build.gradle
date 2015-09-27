@@ -8,8 +8,8 @@ android {
         applicationId "ru.arturvasilov.training"
         minSdkVersion 15
         targetSdkVersion 23
-        versionCode 1
-        versionName "1.0"
+        versionCode calcVersionCode()
+        versionName calcVersionName()
     }
     buildTypes {
         release {
@@ -17,9 +17,102 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    productFlavors {
+        webView {
+        }
+
+        imageLoading {
+        }
+
+        services {
+        }
+
+        contentProvider {
+        }
+
+        touch {
+        }
+
+        designPatterns {
+        }
+
+        rx {
+        }
+
+        sensors {
+        }
+
+    }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:23.0.1'
 }
+
+int calcVersionCode() {
+    return progress() / 5 + 1
+}
+
+String calcVersionName() {
+    int progress = progress()
+    int major = progress / 10
+    int minor = progress % 10
+    return "${major}.${minor}"
+}
+
+int progress() {
+    int progress = 0
+    items().each {
+        progress += (int) (it.progress() * it.majority())
+    }
+    return progress;
+}
+
+List<TrainingItem> items() {
+    TrainingItem webView = new TrainingItemImpl(0f, 5);
+    TrainingItem imageLoading = new TrainingItemImpl(0f, 15);
+    TrainingItem services = new TrainingItemImpl(0f, 10);
+    TrainingItem contentProvider = new TrainingItemImpl(0f, 10);
+    TrainingItem touch = new TrainingItemImpl(0f, 5);
+    TrainingItem designPatterns = new TrainingItemImpl(0f, 25);
+    TrainingItem rx = new TrainingItemImpl(0f, 25);
+    TrainingItem sensors = new TrainingItemImpl(0f, 5);
+
+    List<TrainingItem> items = [webView, imageLoading, services, contentProvider, touch, designPatterns, rx, sensors]
+    int majoritySum = items*.majority().sum() as int;
+    assert majoritySum == 100
+    return items
+}
+
+trait TrainingItem {
+
+    abstract float progress()
+
+    abstract int majority()
+
+}
+
+class TrainingItemImpl implements TrainingItem {
+
+    float progress
+    int majority
+
+    TrainingItemImpl(float progress, int majority) {
+        this.progress = progress
+        this.majority = majority
+    }
+
+    @Override
+    float progress() {
+        return progress
+    }
+
+    @Override
+    int majority() {
+        return majority
+    }
+}
+
+
+
