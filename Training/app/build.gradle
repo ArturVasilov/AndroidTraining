@@ -12,7 +12,13 @@ android {
         versionName calcVersionName()
     }
     buildTypes {
+        debug {
+            buildConfigField 'boolean', 'IS_DEBUG', 'true'
+        }
+
         release {
+            buildConfigField 'boolean', 'IS_DEBUG', 'false'
+
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
@@ -20,27 +26,35 @@ android {
 
     productFlavors {
         webView {
+            versionName "${calcVersionName()} [WebView]"
         }
 
         imageLoading {
+            versionName "${calcVersionName()} [ImageLoading]"
         }
 
         services {
+            versionName "${calcVersionName()} [Services]"
         }
 
         contentProvider {
+            versionName "${calcVersionName()} [ContentProvider]"
         }
 
         touch {
+            versionName "${calcVersionName()} [Touch]"
         }
 
         designPatterns {
+            versionName "${calcVersionName()} [DesignPatterns]"
         }
 
         rx {
+            versionName "${calcVersionName()} [Reactive]"
         }
 
         sensors {
+            versionName "${calcVersionName()} [Sensors]"
         }
 
     }

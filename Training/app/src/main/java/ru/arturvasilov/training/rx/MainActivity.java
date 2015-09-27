@@ -1,7 +1,9 @@
-package ru.arturvasilov.training;
+package ru.arturvasilov.training.rx;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
+import ru.arturvasilov.training.R;
 
 public class MainActivity extends AppCompatActivity {
 
