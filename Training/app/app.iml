@@ -50,13 +50,13 @@
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/webView/debug" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/webView/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/webView/debug" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/webView/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/webView/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/webView/assets" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/webView/aidl" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/webView/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/webView/jni" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/webView/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/webview/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/webview/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/webview/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/webview/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/webview/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/webview/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/webview/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestWebView/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestWebView/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestWebView/assets" type="java-test-resource" />
@@ -86,26 +86,20 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/jni" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/bundles" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/coverage-instrumented-classes" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/contentProviderDebug" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/dependency-cache" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/dex" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/dex-cache" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jacoco" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javaResources" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/libs" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/lint" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/ndk" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/pre-dexed" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/proguard" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/webViewDebug" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
