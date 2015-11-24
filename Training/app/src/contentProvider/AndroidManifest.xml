@@ -16,6 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:authorities="ru.arturvasilov.training"
+            android:exported="false"
+            android:name=".contentprovider.DatabaseProvider"
+            android:label="TrainingDatabaseProvider"/>
+
     </application>
 
 </manifest>

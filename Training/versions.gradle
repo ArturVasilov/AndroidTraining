@@ -1,0 +1,7 @@
+ext {
+    supportVersion = '23.1.1'
+    retrofitVersion = '2.0.0-beta2'
+    okhttpVersion = '2.0'
+    rxandroidVersion = '1.0.1'
+    gsonVersion = '2.4'
+}

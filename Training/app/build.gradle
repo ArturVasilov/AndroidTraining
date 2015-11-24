@@ -60,8 +60,10 @@ android {
     }
 }
 
+apply from: '../versions.gradle'
+
 dependencies {
-    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile "com.android.support:appcompat-v7:${supportVersion}"
 }
 
 int calcVersionCode() {

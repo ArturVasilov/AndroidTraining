@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="ru.arturvasilov.training"
-          xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest
+    package="ru.arturvasilov.training"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
     <application
         android:allowBackup="true"
@@ -11,11 +14,14 @@
             android:name=".services.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <service android:name=".services.SomeService"/>
+        <receiver android:name=".services.ServiceReceiver"/>
     </application>
 
 </manifest>
