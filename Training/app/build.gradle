@@ -86,13 +86,13 @@ int progress() {
 }
 
 List<TrainingItem> items() {
-    TrainingItem webView = new TrainingItemImpl(0f, 5);
-    TrainingItem imageLoading = new TrainingItemImpl(0f, 15);
-    TrainingItem services = new TrainingItemImpl(0f, 10);
-    TrainingItem contentProvider = new TrainingItemImpl(0f, 10);
+    TrainingItem webView = new TrainingItemImpl(1f, 5);
+    TrainingItem imageLoading = new TrainingItemImpl(1f, 15);
+    TrainingItem services = new TrainingItemImpl(1f, 10);
+    TrainingItem contentProvider = new TrainingItemImpl(1f, 10);
     TrainingItem touch = new TrainingItemImpl(0f, 5);
-    TrainingItem designPatterns = new TrainingItemImpl(0f, 25);
-    TrainingItem rx = new TrainingItemImpl(0f, 25);
+    TrainingItem designPatterns = new TrainingItemImpl(15f, 25);
+    TrainingItem rx = new TrainingItemImpl(15f, 25);
     TrainingItem sensors = new TrainingItemImpl(0f, 5);
 
     List<TrainingItem> items = [webView, imageLoading, services, contentProvider, touch, designPatterns, rx, sensors]
