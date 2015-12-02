@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    buildToolsVersion "23.0.2"
 
     defaultConfig {
         applicationId "ru.arturvasilov.training"
@@ -64,6 +64,19 @@ apply from: '../versions.gradle'
 
 dependencies {
     compile "com.android.support:appcompat-v7:${supportVersion}"
+
+    rxCompile "io.reactivex:rxjava:${rxJavaVersion}"
+}
+
+task displayProgress {
+
+    def trainingItems = items()
+
+    doLast {
+        trainingItems.each {
+            println "training item ${it.name()}, progress - ${it.progress() * 100}%"
+        }
+    }
 }
 
 int calcVersionCode() {
@@ -86,14 +99,14 @@ int progress() {
 }
 
 List<TrainingItem> items() {
-    TrainingItem webView = new TrainingItemImpl(1f, 5);
-    TrainingItem imageLoading = new TrainingItemImpl(1f, 15);
-    TrainingItem services = new TrainingItemImpl(1f, 10);
-    TrainingItem contentProvider = new TrainingItemImpl(1f, 10);
-    TrainingItem touch = new TrainingItemImpl(1f, 5);
-    TrainingItem designPatterns = new TrainingItemImpl(0.7f, 25);
-    TrainingItem rx = new TrainingItemImpl(0.8f, 25);
-    TrainingItem sensors = new TrainingItemImpl(0f, 5);
+    TrainingItem webView = new TrainingItemImpl(0f, 5, "webView");
+    TrainingItem imageLoading = new TrainingItemImpl(0f, 15, "imageLoading");
+    TrainingItem services = new TrainingItemImpl(0f, 10, "services");
+    TrainingItem contentProvider = new TrainingItemImpl(0f, 10, "contentProvider");
+    TrainingItem touch = new TrainingItemImpl(0f, 5, "touches");
+    TrainingItem designPatterns = new TrainingItemImpl(0f, 25, "designPatterns");
+    TrainingItem rx = new TrainingItemImpl(0f, 25, "rx");
+    TrainingItem sensors = new TrainingItemImpl(0f, 5, "sensors");
 
     List<TrainingItem> items = [webView, imageLoading, services, contentProvider, touch, designPatterns, rx, sensors]
     int majoritySum = items*.majority().sum() as int;
@@ -107,16 +120,25 @@ trait TrainingItem {
 
     abstract int majority()
 
+    abstract def name()
+
 }
 
 class TrainingItemImpl implements TrainingItem {
 
+    def name
     float progress
     int majority
 
-    TrainingItemImpl(float progress, int majority) {
+    TrainingItemImpl(progress, majority, name) {
         this.progress = progress
         this.majority = majority
+        this.name = name
+    }
+
+    @Override
+    def name() {
+        return name
     }
 
     @Override
