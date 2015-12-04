@@ -99,14 +99,14 @@ int progress() {
 }
 
 List<TrainingItem> items() {
-    TrainingItem webView = new TrainingItemImpl(0f, 5, "webView");
-    TrainingItem imageLoading = new TrainingItemImpl(0f, 15, "imageLoading");
-    TrainingItem services = new TrainingItemImpl(0f, 10, "services");
-    TrainingItem contentProvider = new TrainingItemImpl(0f, 10, "contentProvider");
-    TrainingItem touch = new TrainingItemImpl(0f, 5, "touches");
-    TrainingItem designPatterns = new TrainingItemImpl(0f, 25, "designPatterns");
-    TrainingItem rx = new TrainingItemImpl(0f, 25, "rx");
-    TrainingItem sensors = new TrainingItemImpl(0f, 5, "sensors");
+    TrainingItem webView = new TrainingItemImpl(1f, 5, "webView");
+    TrainingItem imageLoading = new TrainingItemImpl(1f, 15, "imageLoading");
+    TrainingItem services = new TrainingItemImpl(1f, 10, "services");
+    TrainingItem contentProvider = new TrainingItemImpl(1f, 10, "contentProvider");
+    TrainingItem touch = new TrainingItemImpl(1f, 5, "touches");
+    TrainingItem designPatterns = new TrainingItemImpl(1f, 25, "designPatterns");
+    TrainingItem rx = new TrainingItemImpl(1f, 25, "rx");
+    TrainingItem sensors = new TrainingItemImpl(1f, 5, "sensors");
 
     List<TrainingItem> items = [webView, imageLoading, services, contentProvider, touch, designPatterns, rx, sensors]
     int majoritySum = items*.majority().sum() as int;

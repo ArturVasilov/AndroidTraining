@@ -4,8 +4,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import ru.arturvasilov.training.R;
-import rx.Observable;
-import rx.functions.Func1;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        /*
         Observable.just(1, 2, 3, 4, 5)
                 .compose(new Observable.Transformer<Integer, String>() {
                     @Override
@@ -25,6 +24,6 @@ public class MainActivity extends AppCompatActivity {
                             }
                         });
                     }
-                });
+                });*/
     }
 }
