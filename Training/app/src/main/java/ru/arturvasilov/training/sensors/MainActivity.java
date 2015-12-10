@@ -1,5 +1,6 @@
 package ru.arturvasilov.training.sensors;
 
+import android.app.PendingIntent;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -23,6 +24,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
         mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         mTextView = (TextView) findViewById(R.id.textView);
+
+        PendingIntent.get
     }
 
     @Override
