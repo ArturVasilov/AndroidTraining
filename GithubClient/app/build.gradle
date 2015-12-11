@@ -13,6 +13,12 @@ android {
         versionCode 1
         versionName "1.0"
 
+        multiDexEnabled true
+
+        dataBinding {
+            enabled = true
+        }
+
         buildConfigField "String", "API_ENDPOINT", '"https://api.github.com/"'
     }
     buildTypes {
@@ -54,6 +60,8 @@ dependencies {
     apt "com.google.dagger:dagger-compiler:${daggerVersion}"
     compile "com.google.dagger:dagger:${daggerVersion}"
     provided "javax.annotation:jsr250-api:${javaxAnnotationsVersion}"
+
+    compile "com.android.support:multidex:${multidexVersion}"
 
     testCompile "junit:junit:${junitVersion}"
     testCompile("org.robolectric:robolectric:${robolectricVersion}") {

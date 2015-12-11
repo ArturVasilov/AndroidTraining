@@ -1,7 +1,7 @@
 package ru.samples.itis.githubclient.content;
 
 /**
- * Created by User on 09-Dec-15.
+ * @author Artur Vasilov
  */
 public class Repository {
 }

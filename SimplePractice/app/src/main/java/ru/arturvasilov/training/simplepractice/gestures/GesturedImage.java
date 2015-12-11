@@ -59,10 +59,9 @@ public class GesturedImage extends ImageView {
 
     @Override
     protected void onDraw(Canvas canvas) {
+        super.onDraw(canvas);
         if (mListener != null) {
             mListener.getDrawListener().draw(this, canvas);
-        } else {
-            super.onDraw(canvas);
         }
     }
 }

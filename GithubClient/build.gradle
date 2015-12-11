@@ -22,13 +22,6 @@ allprojects {
     }
 }
 
-apply from: 'versions.gradle'
-configurations.all {
-    resolutionStrategy.force "com.android.support:support-annotations:${supportVersion}"
-    resolutionStrategy.force "com.android.support:support-v4:${supportVersion}"
-    resolutionStrategy.force "com.android.support:support-recyclerview-v7:${supportVersion}"
-}
-
 task clean(type: Delete) {
     delete rootProject.buildDir
 }

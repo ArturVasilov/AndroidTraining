@@ -1,8 +1,8 @@
 package ru.samples.itis.githubclient;
 
-import android.app.Application;
 import android.content.Context;
 import android.support.annotation.NonNull;
+import android.support.multidex.MultiDexApplication;
 
 import ru.samples.itis.githubclient.di.DaggerComponent;
 import ru.samples.itis.githubclient.di.DaggerGraph;
@@ -10,7 +10,7 @@ import ru.samples.itis.githubclient.di.DaggerGraph;
 /**
  * @author Artur Vasilov
  */
-public class GithubApplication extends Application {
+public class GithubApplication extends MultiDexApplication {
 
     private DaggerGraph mGraph;
 
@@ -18,6 +18,11 @@ public class GithubApplication extends Application {
     public void onCreate() {
         super.onCreate();
         buildComponentAndInject();
+    }
+
+    @Override
+    protected void attachBaseContext(Context base) {
+        super.attachBaseContext(base);
     }
 
     @NonNull

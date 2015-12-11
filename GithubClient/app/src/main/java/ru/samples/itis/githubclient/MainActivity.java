@@ -4,14 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
-import javax.inject.Inject;
-
-import retrofit.Retrofit;
-
 public class MainActivity extends AppCompatActivity {
-
-    @Inject
-    Retrofit mRetrofit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +14,5 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         GithubApplication.injector(this).injectMainActivity(this);
-
-        mRetrofit.toString();
     }
 }

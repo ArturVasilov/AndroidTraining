@@ -8,6 +8,8 @@ ext {
     daggerVersion = '2.0'
     javaxAnnotationsVersion = '1.0'
 
+    multidexVersion = '1.0.1'
+
     junitVersion = '4.12'
     robolectricVersion = '3.0'
     mockitoVersion = '2.0.31-beta'
