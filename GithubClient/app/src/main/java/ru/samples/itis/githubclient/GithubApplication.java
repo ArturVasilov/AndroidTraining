@@ -20,11 +20,6 @@ public class GithubApplication extends MultiDexApplication {
         buildComponentAndInject();
     }
 
-    @Override
-    protected void attachBaseContext(Context base) {
-        super.attachBaseContext(base);
-    }
-
     @NonNull
     public DaggerGraph graph() {
         return mGraph;

@@ -2,6 +2,8 @@ apply plugin: 'com.android.application'
 apply plugin: 'me.tatarka.retrolambda'
 apply plugin: 'com.neenbedankt.android-apt'
 
+apply from: '../variables.gradle'
+
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
@@ -20,6 +22,9 @@ android {
         }
 
         buildConfigField "String", "API_ENDPOINT", '"https://api.github.com/"'
+        buildConfigField "String", "CLIENT_ID", clientId
+        buildConfigField "String", "CLIENT_SECRET", clientSecret
+        buildConfigField "Boolean", "USE_MOCKS", 'true'
     }
     buildTypes {
         release {
@@ -62,6 +67,8 @@ dependencies {
     provided "javax.annotation:jsr250-api:${javaxAnnotationsVersion}"
 
     compile "com.android.support:multidex:${multidexVersion}"
+
+    compile project(':sqlite')
 
     testCompile "junit:junit:${junitVersion}"
     testCompile("org.robolectric:robolectric:${robolectricVersion}") {
