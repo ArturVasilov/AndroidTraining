@@ -1,42 +1,43 @@
 package ru.arturvasilov.sqlite.action;
 
 import android.content.Context;
-import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+
+import ru.arturvasilov.sqlite.table.Table;
 
 /**
  * @author Artur Vasilov
  */
-public class DeleteActionImpl implements DeleteAction {
+public class DeleteActionImpl<T> implements DeleteAction<T> {
 
     private final Context mContext;
-    private final Uri mUri;
+    private final Table<T> mTable;
 
     private String mWhere;
     private String[] mArgs;
 
-    public DeleteActionImpl(Context context, @NonNull Uri uri) {
+    public DeleteActionImpl(Context context, @NonNull Table<T> table) {
         mContext = context;
-        mUri = uri;
+        mTable = table;
     }
 
     @NonNull
     @Override
-    public DeleteAction where(@Nullable String where) {
+    public DeleteAction<T> where(@Nullable String where) {
         mWhere = where;
         return this;
     }
 
     @NonNull
     @Override
-    public DeleteAction whereArgs(@Nullable String[] args) {
+    public DeleteAction<T> whereArgs(@Nullable String[] args) {
         mArgs = args;
         return this;
     }
 
     @Override
     public int execute() {
-        return mContext.getContentResolver().delete(mUri, mWhere, mArgs);
+        return mContext.getContentResolver().delete(mTable.getUri(), mWhere, mArgs);
     }
 }

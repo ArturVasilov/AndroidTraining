@@ -4,8 +4,6 @@ import android.database.Cursor;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import java.lang.reflect.Constructor;
-
 /**
  * @author Artur Vasilov
  */
@@ -32,16 +30,6 @@ public class SQLiteUtils {
         try {
             cursor.close();
         } catch (Exception ignored) {
-        }
-    }
-
-    @Nullable
-    public static <T> T fromCursor(@NonNull Cursor cursor, Class<T> clazz) {
-        try {
-            Constructor<T> constructor = clazz.getConstructor(Cursor.class);
-            return constructor.newInstance(cursor);
-        } catch (Exception e) {
-            return null;
         }
     }
 

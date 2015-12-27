@@ -3,9 +3,9 @@ package ru.arturvasilov.sqlite.query;
 /**
  * @author Artur Vasilov
  */
-public interface Query {
+public interface Query<T> {
 
-    <T> QueryList<T> all(Class<T> clazz);
+    QueryList<T> all();
 
-    <T> QueryObject<T> object(Class<T> clazz);
+    QueryObject<T> object();
 }

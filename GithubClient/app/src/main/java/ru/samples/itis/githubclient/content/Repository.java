@@ -36,8 +36,7 @@ public class Repository {
     @SerializedName("watchers_count")
     private int mWatchersCount;
 
-    public Repository(@NonNull Cursor cursor) {
-
+    public Repository() {
     }
 
     @NonNull
@@ -93,15 +92,22 @@ public class Repository {
 
     private static class RepositoryTable extends BaseTable<Repository> {
 
+        private static final String NAME_COLUMN = "name";
+        private static final String DESCRIPTION_COLUMN = "description";
+        private static final String LANGUAGE_COLUMN = "language";
+        private static final String STARS_COLUMN = "stars";
+        private static final String FORKS_COLUMN = "forks";
+        private static final String WATCHERS_COLUMN = "watchers";
+
         @Override
         public void onCreate(@NonNull SQLiteDatabase database) {
             TableBuilder.create(this)
-                    .stringColumn("name")
-                    .stringColumn("description")
-                    .stringColumn("language")
-                    .intColumn("stars")
-                    .intColumn("forks")
-                    .intColumn("watchers")
+                    .stringColumn(NAME_COLUMN)
+                    .stringColumn(DESCRIPTION_COLUMN)
+                    .stringColumn(LANGUAGE_COLUMN)
+                    .intColumn(STARS_COLUMN)
+                    .intColumn(FORKS_COLUMN)
+                    .intColumn(WATCHERS_COLUMN)
                     .execute(database);
         }
 
@@ -113,7 +119,27 @@ public class Repository {
         @NonNull
         @Override
         public ContentValues toValues(@NonNull Repository object) {
-            return null;
+            ContentValues values = new ContentValues();
+            values.put(NAME_COLUMN, object.getName());
+            values.put(DESCRIPTION_COLUMN, object.getDescription());
+            values.put(LANGUAGE_COLUMN, object.getLanguage());
+            values.put(STARS_COLUMN, object.getStarsCount());
+            values.put(FORKS_COLUMN, object.getForksCount());
+            values.put(WATCHERS_COLUMN, object.getWatchersCount());
+            return values;
+        }
+
+        @NonNull
+        @Override
+        public Repository fromCursor(@NonNull Cursor cursor) {
+            Repository repository = new Repository();
+            repository.setName(cursor.getString(cursor.getColumnIndex(NAME_COLUMN)));
+            repository.setDescription(cursor.getString(cursor.getColumnIndex(DESCRIPTION_COLUMN)));
+            repository.setLanguage(cursor.getString(cursor.getColumnIndex(LANGUAGE_COLUMN)));
+            repository.setStarsCount(cursor.getInt(cursor.getColumnIndex(STARS_COLUMN)));
+            repository.setForksCount(cursor.getInt(cursor.getColumnIndex(FORKS_COLUMN)));
+            repository.setWatchersCount(cursor.getInt(cursor.getColumnIndex(WATCHERS_COLUMN)));
+            return repository;
         }
     }
 }

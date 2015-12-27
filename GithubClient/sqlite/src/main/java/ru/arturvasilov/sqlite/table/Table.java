@@ -1,6 +1,7 @@
 package ru.arturvasilov.sqlite.table;
 
 import android.content.ContentValues;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.support.annotation.NonNull;
@@ -24,5 +25,8 @@ public interface Table<T> {
 
     @NonNull
     ContentValues toValues(@NonNull T object);
+
+    @NonNull
+    T fromCursor(@NonNull Cursor cursor);
 
 }

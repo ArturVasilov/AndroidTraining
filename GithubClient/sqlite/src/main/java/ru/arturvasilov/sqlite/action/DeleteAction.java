@@ -6,13 +6,13 @@ import android.support.annotation.Nullable;
 /**
  * @author Artur Vasilov
  */
-public interface DeleteAction {
+public interface DeleteAction<T> {
 
     @NonNull
-    DeleteAction where(@Nullable String where);
+    DeleteAction<T> where(@Nullable String where);
 
     @NonNull
-    DeleteAction whereArgs(@Nullable String[] args);
+    DeleteAction<T> whereArgs(@Nullable String[] args);
 
     int execute();
 

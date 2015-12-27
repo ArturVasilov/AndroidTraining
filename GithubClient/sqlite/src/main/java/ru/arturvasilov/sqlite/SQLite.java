@@ -41,8 +41,16 @@ public class SQLite {
     }
 
     @NonNull
-    public Query query(@NonNull Table table) {
-        return new QueryImpl(mContext, table.getUri());
+    public static SQLite get() {
+        if (sSQLite == null) {
+            throw new IllegalStateException("You should call get(Context) first, to initialize the database");
+        }
+        return sSQLite;
+    }
+
+    @NonNull
+    public <T> Query<T> query(@NonNull Table<T> table) {
+        return new QueryImpl<>(mContext, table);
     }
 
     @NonNull
@@ -51,8 +59,8 @@ public class SQLite {
     }
 
     @NonNull
-    public DeleteAction delete(@NonNull Table table) {
-        return new DeleteActionImpl(mContext, table.getUri());
+    public <T> DeleteAction<T> delete(@NonNull Table<T> table) {
+        return new DeleteActionImpl<>(mContext, table);
     }
 
     @NonNull

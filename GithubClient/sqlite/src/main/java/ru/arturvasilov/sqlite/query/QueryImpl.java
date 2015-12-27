@@ -1,29 +1,30 @@
 package ru.arturvasilov.sqlite.query;
 
 import android.content.Context;
-import android.net.Uri;
 import android.support.annotation.NonNull;
+
+import ru.arturvasilov.sqlite.table.Table;
 
 /**
  * @author Artur Vasilov
  */
-public class QueryImpl implements Query {
+public class QueryImpl<T> implements Query<T> {
 
     private final Context mContext;
-    private final Uri mUri;
+    private final Table<T> mTable;
 
-    public QueryImpl(Context context, @NonNull Uri uri) {
+    public QueryImpl(Context context, @NonNull Table<T> table) {
         mContext = context;
-        mUri = uri;
+        mTable = table;
     }
 
     @Override
-    public <T> QueryList<T> all(Class<T> clazz) {
-        return new QueryListImpl<>(mContext, mUri, clazz);
+    public QueryList<T> all() {
+        return new QueryListImpl<>(mContext, mTable);
     }
 
     @Override
-    public <T> QueryObject<T> object(Class<T> clazz) {
-        return new QueryObjectImpl<>(mContext, mUri, clazz);
+    public QueryObject<T> object() {
+        return new QueryObjectImpl<>(mContext, mTable);
     }
 }

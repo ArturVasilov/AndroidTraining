@@ -2,11 +2,11 @@ package ru.arturvasilov.sqlite.query;
 
 import android.content.Context;
 import android.database.Cursor;
-import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
 import ru.arturvasilov.sqlite.SQLiteUtils;
+import ru.arturvasilov.sqlite.table.Table;
 
 /**
  * @author Artur Vasilov
@@ -14,16 +14,14 @@ import ru.arturvasilov.sqlite.SQLiteUtils;
 public class QueryObjectImpl<T> implements QueryObject<T> {
 
     private final Context mContext;
-    private final Uri mUri;
-    private final Class<T> mClass;
+    private final Table<T> mTable;
 
     private String mQuery;
     private String[] mQueryArgs;
 
-    public QueryObjectImpl(Context context, @NonNull Uri uri, Class<T> clazz) {
+    public QueryObjectImpl(Context context, @NonNull Table<T> table) {
         mContext = context;
-        mUri = uri;
-        mClass = clazz;
+        mTable = table;
     }
 
     @NonNull
@@ -44,12 +42,12 @@ public class QueryObjectImpl<T> implements QueryObject<T> {
     @Override
     public T execute() {
         Cursor cursor = mContext.getContentResolver()
-                .query(mUri, null, mQuery, mQueryArgs, null);
+                .query(mTable.getUri(), null, mQuery, mQueryArgs, null);
         try {
             if (SQLiteUtils.isEmptyCursor(cursor)) {
                 return null;
             }
-            return SQLiteUtils.fromCursor(cursor, mClass);
+            return mTable.fromCursor(cursor);
         } finally {
             SQLiteUtils.safeCloseCursor(cursor);
         }
