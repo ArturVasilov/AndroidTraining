@@ -25,6 +25,8 @@ android {
         buildConfigField "String", "CLIENT_ID", clientId
         buildConfigField "String", "CLIENT_SECRET", clientSecret
         buildConfigField "Boolean", "USE_MOCKS", 'true'
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {

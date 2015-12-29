@@ -1,5 +1,6 @@
 package ru.samples.itis.githubclient.activity;
 
+import android.app.Fragment;
 import android.app.LoaderManager;
 import android.content.Context;
 import android.content.Loader;
@@ -10,6 +11,7 @@ import android.support.v7.widget.Toolbar;
 
 import ru.samples.itis.githubclient.GithubApplication;
 import ru.samples.itis.githubclient.R;
+import ru.samples.itis.githubclient.fragment.LogInFragment;
 import ru.samples.itis.githubclient.network.Executor;
 import ru.samples.itis.githubclient.network.Response;
 import ru.samples.itis.githubclient.network.RxLoader;
@@ -24,12 +26,11 @@ public class LogInActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         GithubApplication.injector(this).injectLogInActivity(this);
-    }
 
-    @Override
-    protected void onStart() {
-        super.onStart();
-
+        Fragment fragment = new LogInFragment();
+        getFragmentManager().beginTransaction()
+                .replace(R.id.content_frame, fragment)
+                .commit();
     }
 
     private class Callback implements LoaderManager.LoaderCallbacks<Response> {
