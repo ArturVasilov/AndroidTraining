@@ -10,6 +10,8 @@ import org.junit.Before;
 import org.junit.Rule;
 import org.junit.runner.RunWith;
 
+import ru.samples.itis.githubclient.activity.LogInActivity;
+
 /**
  * @author Artur Vasilov
  */
