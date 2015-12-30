@@ -11,6 +11,7 @@ ext {
     multidexVersion = '1.0.1'
 
     junitVersion = '4.12'
+    powerMockVersion = '1.6.2'
     robolectricVersion = '3.0'
     mockitoVersion = '2.0.31-beta'
     espressoVersion = '2.2.1'

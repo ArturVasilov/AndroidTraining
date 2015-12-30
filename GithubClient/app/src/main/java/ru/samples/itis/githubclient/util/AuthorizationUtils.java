@@ -13,9 +13,7 @@ import ru.samples.itis.githubclient.BuildConfig;
 public final class AuthorizationUtils {
 
     private static final String BASIC_AUTHORIZATION = "Basic ";
-
     private static final String CLIENT_ID_PROPERTY = "client_id";
-
     private static final String CLIENT_SECRET_PROPERTY = "client_secret";
 
     private AuthorizationUtils() {
