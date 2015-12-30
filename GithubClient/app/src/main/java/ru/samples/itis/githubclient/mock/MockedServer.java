@@ -1,9 +1,13 @@
 package ru.samples.itis.githubclient.mock;
 
+import com.google.gson.JsonObject;
+
+import java.util.List;
+
 import retrofit.http.Body;
-import retrofit.http.Query;
+import retrofit.http.Header;
 import ru.samples.itis.githubclient.api.GithubService;
-import ru.samples.itis.githubclient.api.body.AuthParams;
+import ru.samples.itis.githubclient.content.Authorization;
 import ru.samples.itis.githubclient.content.Repository;
 import rx.Observable;
 
@@ -13,12 +17,12 @@ import rx.Observable;
 public class MockedServer implements GithubService {
 
     @Override
-    public Observable<String> sendAccessCodeData(@Body AuthParams params) {
+    public Observable<Authorization> createNewAuthorization(@Header("Authorization") String authorization, @Body JsonObject params) {
         return null;
     }
 
     @Override
-    public Observable<Repository> getRepositories(@Query("page") int pageNumber) {
+    public Observable<List<Repository>> repositories(@Header("Authorization") String token) {
         return null;
     }
 }
