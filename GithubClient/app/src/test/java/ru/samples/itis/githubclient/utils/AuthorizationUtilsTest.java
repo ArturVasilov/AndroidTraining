@@ -11,7 +11,7 @@ import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
 
 import ru.samples.itis.githubclient.BuildConfig;
-import ru.samples.itis.githubclient.util.AuthorizationUtils;
+import ru.samples.itis.githubclient.content.auth.AuthorizationUtils;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;

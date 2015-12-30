@@ -1,4 +1,4 @@
-package ru.samples.itis.githubclient.util;
+package ru.samples.itis.githubclient.content.auth;
 
 import android.support.annotation.NonNull;
 import android.util.Base64;

@@ -4,4 +4,6 @@
     <string name="login_hint">Login</string>
     <string name="password_hint">Password</string>
     <string name="log_in">Log in</string>
+
+    <string name="account_token_type">ru.arturvasilov.githubclient.auth</string>
 </resources>

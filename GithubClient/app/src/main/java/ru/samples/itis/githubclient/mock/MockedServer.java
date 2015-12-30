@@ -17,7 +17,7 @@ import rx.Observable;
 public class MockedServer implements GithubService {
 
     @Override
-    public Observable<Authorization> createNewAuthorization(@Header("Authorization") String authorization, @Body JsonObject params) {
+    public Observable<Authorization> authorize(@Header("Authorization") String authorization, @Body JsonObject params) {
         return null;
     }
 

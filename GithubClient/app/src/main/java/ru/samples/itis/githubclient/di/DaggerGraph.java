@@ -4,6 +4,7 @@ import javax.inject.Singleton;
 
 import dagger.Component;
 import ru.samples.itis.githubclient.activity.LogInActivity;
+import ru.samples.itis.githubclient.content.auth.GithubAuthenticator;
 import ru.samples.itis.githubclient.di.module.ApiModule;
 import ru.samples.itis.githubclient.di.module.MainModule;
 import ru.samples.itis.githubclient.di.module.ServerModule;
@@ -16,5 +17,7 @@ import ru.samples.itis.githubclient.di.module.ServerModule;
 public interface DaggerGraph {
 
     void injectLogInActivity(LogInActivity logInActivity);
+
+    void injectAuthenticator(GithubAuthenticator authenticator);
 
 }

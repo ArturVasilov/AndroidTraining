@@ -18,7 +18,7 @@ import rx.Observable;
 public interface GithubService {
 
     @POST("/authorizations")
-    Observable<Authorization> createNewAuthorization(@Header("Authorization") String authorization,
+    Observable<Authorization> authorize(@Header("Authorization") String authorization,
                                                      @Body JsonObject params);
 
     @GET("/user/repos")
