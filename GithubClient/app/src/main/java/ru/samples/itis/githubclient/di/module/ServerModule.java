@@ -1,6 +1,10 @@
 package ru.samples.itis.githubclient.di.module;
 
+import android.support.annotation.NonNull;
+
+import com.squareup.okhttp.Interceptor;
 import com.squareup.okhttp.OkHttpClient;
+import com.squareup.okhttp.Request;
 
 import java.util.concurrent.TimeUnit;
 
@@ -10,6 +14,7 @@ import retrofit.GsonConverterFactory;
 import retrofit.Retrofit;
 import retrofit.RxJavaCallAdapterFactory;
 import ru.samples.itis.githubclient.BuildConfig;
+import ru.samples.itis.githubclient.content.auth.GithubAccount;
 
 /**
  * @author Artur Vasilov
@@ -22,11 +27,12 @@ public class ServerModule {
     private static final int TIMEOUT = 60;
 
     @Provides
-    OkHttpClient client() {
+    OkHttpClient client(@NonNull Interceptor interceptor) {
         OkHttpClient client = new OkHttpClient();
         client.setConnectTimeout(CONNECT_TIMEOUT, TimeUnit.SECONDS);
         client.setWriteTimeout(WRITE_TIMEOUT, TimeUnit.SECONDS);
         client.setReadTimeout(TIMEOUT, TimeUnit.SECONDS);
+        client.interceptors().add(interceptor);
         return client;
     }
 
@@ -36,8 +42,18 @@ public class ServerModule {
                 .baseUrl(BuildConfig.API_ENDPOINT)
                 .addConverterFactory(GsonConverterFactory.create())
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
-                .client(client())
+                .client(client(tokenInterceptor()))
                 .build();
     }
 
+    @Provides
+    Interceptor tokenInterceptor() {
+        return chain -> {
+            String token = GithubAccount.getInstance().getAuthToken();
+            Request request = chain.request().newBuilder()
+                    .addHeader("Authorization", String.format("%s %s", "token", token))
+                    .build();
+            return chain.proceed(request);
+        };
+    }
 }

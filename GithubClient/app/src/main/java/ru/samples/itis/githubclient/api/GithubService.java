@@ -19,7 +19,7 @@ public interface GithubService {
 
     @POST("/authorizations")
     Observable<Authorization> authorize(@Header("Authorization") String authorization,
-                                                     @Body JsonObject params);
+                                        @Body JsonObject params);
 
     @GET("/user/repos")
     Observable<List<Repository>> repositories(@Header("Authorization") String token);
