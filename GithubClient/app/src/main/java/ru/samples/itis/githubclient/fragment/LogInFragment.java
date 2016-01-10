@@ -1,22 +1,21 @@
 package ru.samples.itis.githubclient.fragment;
 
-import android.app.Fragment;
-import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
+import android.support.annotation.NonNull;
 
 import ru.samples.itis.githubclient.R;
 
 /**
  * @author Artur Vasilov
  */
-public class LogInFragment extends Fragment {
+public class LogInFragment extends BaseFragment {
 
-    @Nullable
+    @NonNull
+    public static LogInFragment getInstance() {
+        return new LogInFragment();
+    }
+
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.log_in_fragment, container, false);
+    protected int getLayoutId() {
+        return R.layout.log_in_fragment;
     }
 }

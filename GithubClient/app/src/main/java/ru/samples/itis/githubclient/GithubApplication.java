@@ -5,8 +5,7 @@ import android.support.annotation.NonNull;
 import android.support.multidex.MultiDex;
 
 import ru.samples.itis.githubclient.content.auth.GithubAccount;
-import ru.samples.itis.githubclient.di.DaggerComponent;
-import ru.samples.itis.githubclient.di.DaggerGraph;
+import ru.samples.itis.githubclient.di.Graphs;
 import ru.samples.itis.githubclient.network.NetworkApplication;
 
 /**
@@ -14,13 +13,13 @@ import ru.samples.itis.githubclient.network.NetworkApplication;
  */
 public class GithubApplication extends NetworkApplication {
 
-    private DaggerGraph mGraph;
+    private Graphs mGraphs;
 
     @Override
     public void onCreate() {
         super.onCreate();
+        mGraphs = new Graphs(this);
         GithubAccount.setup(this);
-        buildComponentAndInject();
     }
 
     @Override
@@ -30,21 +29,12 @@ public class GithubApplication extends NetworkApplication {
     }
 
     @NonNull
-    public DaggerGraph graph() {
-        return mGraph;
-    }
-
-    @NonNull
-    public static DaggerGraph injector(Context context) {
-        return get(context).graph();
-    }
-
-    @NonNull
     public static GithubApplication get(Context context) {
         return (GithubApplication) context.getApplicationContext();
     }
 
-    public void buildComponentAndInject() {
-        mGraph = DaggerComponent.Initializer.init(this);
+    @NonNull
+    public static Graphs graphs(Context context) {
+        return get(context).mGraphs;
     }
 }

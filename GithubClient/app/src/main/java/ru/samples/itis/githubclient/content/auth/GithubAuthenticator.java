@@ -12,10 +12,10 @@ import android.text.TextUtils;
 
 import javax.inject.Inject;
 
-import ru.samples.itis.githubclient.GithubApplication;
-import ru.samples.itis.githubclient.activity.LogInActivity;
+import ru.samples.itis.githubclient.activity.auth.LogInActivity;
 import ru.samples.itis.githubclient.api.GithubService;
 import ru.samples.itis.githubclient.content.Authorization;
+import ru.samples.itis.githubclient.di.Graphs;
 import rx.Subscriber;
 
 /**
@@ -31,7 +31,7 @@ public class GithubAuthenticator extends AbstractAccountAuthenticator {
     public GithubAuthenticator(Context context) {
         super(context);
         mContext = context;
-        GithubApplication.injector(mContext).injectAuthenticator(this);
+        Graphs.appGraph(mContext).injectAuthenticator(this);
     }
 
     @Override
@@ -46,6 +46,7 @@ public class GithubAuthenticator extends AbstractAccountAuthenticator {
         if (options != null) {
             bundle.putAll(options);
         }
+        intent.putExtra(AccountManager.KEY_ACCOUNT_AUTHENTICATOR_RESPONSE, response);
         bundle.putParcelable(AccountManager.KEY_INTENT, intent);
         return bundle;
     }
@@ -63,9 +64,10 @@ public class GithubAuthenticator extends AbstractAccountAuthenticator {
         final Bundle bundle = new Bundle();
 
         if (TextUtils.isEmpty(authToken)) {
+            String login = accountManager.getUserData(account, GithubAccount.LOGIN_KEY);
             String password = accountManager.getPassword(account);
-            if (!TextUtils.isEmpty(password)) {
-                String authorization = AuthorizationUtils.createAuthorizationString(account.name, password);
+            if (!TextUtils.isEmpty(password) && !TextUtils.isEmpty(login)) {
+                String authorization = AuthorizationUtils.createAuthorizationString(login, password);
                 mService.authorize(authorization, AuthorizationUtils.createAuthorizationParam())
                         .subscribe(new Subscriber<Authorization>() {
                             @Override

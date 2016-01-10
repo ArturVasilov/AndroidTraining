@@ -3,10 +3,12 @@ package ru.samples.itis.githubclient.content.auth;
 import android.accounts.Account;
 import android.accounts.AccountManager;
 import android.content.Context;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
 import ru.samples.itis.githubclient.BuildConfig;
+import ru.samples.itis.githubclient.R;
 
 /**
  * @author Artur Vasilov
@@ -14,6 +16,10 @@ import ru.samples.itis.githubclient.BuildConfig;
 public class GithubAccount extends Account {
 
     public static final Creator<Account> CREATOR = Account.CREATOR;
+
+    public static final String LOGIN_KEY = "login";
+
+    private static final String ACCOUNT_NAME = "GithubAccount";
 
     private static GithubAccount sInstance;
 
@@ -44,12 +50,20 @@ public class GithubAccount extends Account {
     }
 
     @Nullable
-    private static Account getUserAccount(Context context) {
+    public static Account getUserAccount(Context context) {
         AccountManager accountManager = AccountManager.get(context);
         Account[] accounts = accountManager.getAccountsByType(BuildConfig.ACCOUNT_TYPE);
         if (accounts == null || accounts.length < 1) {
             return null;
         }
         return accounts[0];
+    }
+
+    public static void addAccount(Context context, @NonNull String login, @NonNull String password) {
+        AccountManager accountManager = AccountManager.get(context);
+        Account account = new Account(ACCOUNT_NAME, context.getString(R.string.account_token_type));
+        Bundle bundle = new Bundle();
+        bundle.putString(LOGIN_KEY, login);
+        accountManager.addAccountExplicitly(account, password, bundle);
     }
 }

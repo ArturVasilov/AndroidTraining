@@ -1,9 +1,8 @@
-package ru.samples.itis.githubclient.di;
+package ru.samples.itis.githubclient.di.graph;
 
 import javax.inject.Singleton;
 
 import dagger.Component;
-import ru.samples.itis.githubclient.activity.LogInActivity;
 import ru.samples.itis.githubclient.content.auth.GithubAuthenticator;
 import ru.samples.itis.githubclient.di.module.ApiModule;
 import ru.samples.itis.githubclient.di.module.MainModule;
@@ -14,9 +13,7 @@ import ru.samples.itis.githubclient.di.module.ServerModule;
  */
 @Singleton
 @Component(modules = {ServerModule.class, ApiModule.class, MainModule.class})
-public interface DaggerGraph {
-
-    void injectLogInActivity(LogInActivity logInActivity);
+public interface ComponentGraph {
 
     void injectAuthenticator(GithubAuthenticator authenticator);
 
