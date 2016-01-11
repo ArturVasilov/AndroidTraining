@@ -4,6 +4,7 @@ import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.multidex.MultiDex;
 
+import ru.arturvasilov.sqlite.SQLite;
 import ru.samples.itis.githubclient.content.auth.GithubAccount;
 import ru.samples.itis.githubclient.di.Graphs;
 import ru.samples.itis.githubclient.network.NetworkApplication;
@@ -18,6 +19,7 @@ public class GithubApplication extends NetworkApplication {
     @Override
     public void onCreate() {
         super.onCreate();
+        SQLite.get(this);
         mGraphs = new Graphs(this);
         GithubAccount.setup(this);
     }

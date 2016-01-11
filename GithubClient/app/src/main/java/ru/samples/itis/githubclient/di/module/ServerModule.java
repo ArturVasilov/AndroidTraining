@@ -1,6 +1,7 @@
 package ru.samples.itis.githubclient.di.module;
 
 import android.support.annotation.NonNull;
+import android.text.TextUtils;
 
 import com.squareup.okhttp.Interceptor;
 import com.squareup.okhttp.OkHttpClient;
@@ -50,6 +51,9 @@ public class ServerModule {
     Interceptor tokenInterceptor() {
         return chain -> {
             String token = GithubAccount.getInstance().getAuthToken();
+            if (TextUtils.isEmpty(token)) {
+                return chain.proceed(chain.request());
+            }
             Request request = chain.request().newBuilder()
                     .addHeader("Authorization", String.format("%s %s", "token", token))
                     .build();

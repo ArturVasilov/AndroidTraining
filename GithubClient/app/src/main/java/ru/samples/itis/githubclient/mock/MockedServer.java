@@ -22,7 +22,7 @@ public class MockedServer implements GithubService {
     }
 
     @Override
-    public Observable<List<Repository>> repositories(@Header("Authorization") String token) {
+    public Observable<List<Repository>> repositories() {
         return null;
     }
 }

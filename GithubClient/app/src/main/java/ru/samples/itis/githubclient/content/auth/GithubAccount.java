@@ -31,7 +31,7 @@ public class GithubAccount extends Account {
 
     @NonNull
     public static GithubAccount getInstance() {
-        return sInstance;
+        return sInstance == null ? stub() : sInstance;
     }
 
     public static void setup(Context context) {
@@ -59,11 +59,18 @@ public class GithubAccount extends Account {
         return accounts[0];
     }
 
-    public static void addAccount(Context context, @NonNull String login, @NonNull String password) {
+    public static boolean addAccount(Context context, @NonNull String login, @NonNull String password) {
         AccountManager accountManager = AccountManager.get(context);
         Account account = new Account(ACCOUNT_NAME, context.getString(R.string.account_token_type));
         Bundle bundle = new Bundle();
         bundle.putString(LOGIN_KEY, login);
-        accountManager.addAccountExplicitly(account, password, bundle);
+        return accountManager.addAccountExplicitly(account, password, bundle);
+    }
+
+    @NonNull
+    private static GithubAccount stub() {
+        GithubAccount account = new GithubAccount("githubaccount.stub");
+        account.mAuthToken = "";
+        return account;
     }
 }

@@ -22,6 +22,6 @@ public interface GithubService {
                                         @Body JsonObject params);
 
     @GET("/user/repos")
-    Observable<List<Repository>> repositories(@Header("Authorization") String token);
+    Observable<List<Repository>> repositories();
 
 }
