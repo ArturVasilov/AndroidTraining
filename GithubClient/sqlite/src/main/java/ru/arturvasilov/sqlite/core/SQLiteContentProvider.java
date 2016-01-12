@@ -34,7 +34,7 @@ public abstract class SQLiteContentProvider extends ContentProvider {
         SQLiteConfig config = new SQLiteConfig(getContext());
         prepareConfig(config);
 
-        sContentAuthority = config.getUri();
+        sContentAuthority = config.getAuthority();
         sBaseUri = Uri.parse("content://" + sContentAuthority);
 
         mSchema = new Schema();
@@ -68,7 +68,7 @@ public abstract class SQLiteContentProvider extends ContentProvider {
         }
     }
 
-    @Nullable
+    @NonNull
     @Override
     public Uri insert(@NonNull Uri uri, ContentValues values) {
         SQLiteDatabase database = mSQLiteHelper.getWritableDatabase();

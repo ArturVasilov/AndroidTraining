@@ -30,7 +30,7 @@ public class RepositoriesAdapter extends BaseRecyclerAdapter<RepositoriesAdapter
     }
 
     @Override
-    protected void populateHolder(RepositoryHolder holder, Repository value, int position) {
+    protected void populateHolder(@NonNull RepositoryHolder holder, @NonNull Repository value, int position) {
 
     }
 

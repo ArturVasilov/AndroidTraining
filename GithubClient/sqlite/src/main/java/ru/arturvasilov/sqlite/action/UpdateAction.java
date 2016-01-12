@@ -9,7 +9,7 @@ import android.support.annotation.Nullable;
 public interface UpdateAction<T> {
 
     @NonNull
-    UpdateAction insert(@NonNull T objecy);
+    UpdateAction insert(@NonNull T object);
 
     @NonNull
     UpdateAction where(@Nullable String where);

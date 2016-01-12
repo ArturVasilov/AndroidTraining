@@ -14,19 +14,19 @@ public class SQLiteConfig {
     private static final String PREFS_NAME = "sqlite_config_prefs";
 
     private static final String DATABASE_NAME_KEY = "database_name";
-    private static final String URI_KEY = "uri_name";
+    private static final String AUTHORITY_KEY = "authority";
 
     private final Context mContext;
 
     private String mDatabaseName;
-    private String mUri;
+    private String mAuthority;
 
     public SQLiteConfig(Context context) {
         mContext = context;
 
         SharedPreferences prefs = getPrefs();
         mDatabaseName = prefs.getString(DATABASE_NAME_KEY, SQLiteUtils.defaultDatabaseName());
-        mUri = prefs.getString(URI_KEY, SQLiteUtils.defaultUri());
+        mAuthority = prefs.getString(AUTHORITY_KEY, SQLiteUtils.defaultUri());
     }
 
     @NonNull
@@ -39,12 +39,12 @@ public class SQLiteConfig {
     }
 
     @NonNull
-    public String getUri() {
-        return mUri;
+    public String getAuthority() {
+        return mAuthority;
     }
 
-    public void setUri(@NonNull String uri) {
-        mUri = uri;
+    public void setAuthority(@NonNull String uri) {
+        mAuthority = uri;
     }
 
     @NonNull

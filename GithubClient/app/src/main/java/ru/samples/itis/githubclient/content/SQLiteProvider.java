@@ -18,7 +18,7 @@ public class SQLiteProvider extends SQLiteContentProvider {
     @Override
     protected void prepareConfig(@NonNull SQLiteConfig config) {
         config.setDatabaseName(DATABASE_NAME);
-        config.setUri(CONTENT_AUTHORITY);
+        config.setAuthority(CONTENT_AUTHORITY);
     }
 
     @Override

@@ -56,7 +56,7 @@ public abstract class BaseRecyclerAdapter<H extends BaseRecyclerAdapter.Holder, 
     @NonNull
     protected abstract H createHolder(@NonNull View view);
 
-    protected abstract void populateHolder(H holder, D value, int position);
+    protected abstract void populateHolder(@NonNull H holder, @NonNull D value, int position);
 
     protected abstract class Holder extends RecyclerView.ViewHolder {
 
