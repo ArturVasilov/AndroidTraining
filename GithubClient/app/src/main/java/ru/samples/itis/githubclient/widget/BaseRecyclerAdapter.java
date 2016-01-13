@@ -35,7 +35,7 @@ public abstract class BaseRecyclerAdapter<H extends BaseRecyclerAdapter.Holder, 
     @Override
     public H onCreateViewHolder(ViewGroup parent, int viewType) {
         Context context = parent.getContext();
-        View view = LayoutInflater.from(context).inflate(getLayoutId(), parent);
+        View view = LayoutInflater.from(context).inflate(getLayoutId(), parent, false);
         return createHolder(view);
     }
 

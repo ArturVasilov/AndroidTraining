@@ -17,10 +17,6 @@ android {
 
         multiDexEnabled true
 
-        dataBinding {
-            enabled = true
-        }
-
         buildConfigField "String", "API_ENDPOINT", '"https://api.github.com/"'
         buildConfigField "String", "CLIENT_ID", clientId
         buildConfigField "String", "CLIENT_SECRET", clientSecret
@@ -70,6 +66,8 @@ dependencies {
     provided "javax.annotation:jsr250-api:${javaxAnnotationsVersion}"
 
     compile "com.android.support:multidex:${multidexVersion}"
+
+    retrolambdaConfig "net.orfjackal.retrolambda:retrolambda:${retrolambdaVersion}"
 
     compile project(':sqlite')
 

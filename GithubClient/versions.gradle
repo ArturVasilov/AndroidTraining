@@ -7,6 +7,7 @@ ext {
     materialDialogsVersion = '0.8.5.2'
     daggerVersion = '2.0'
     javaxAnnotationsVersion = '1.0'
+    retrolambdaVersion = '2.1.0'
 
     multidexVersion = '1.0.1'
 
