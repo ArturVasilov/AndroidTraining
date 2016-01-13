@@ -44,6 +44,8 @@
                 android:resource="@xml/authenticator"/>
         </service>
 
+        <service android:name=".api.RequestsService"/>
+
         <provider
             android:name=".content.SQLiteProvider"
             android:authorities="ru.arturvasilov.training.githubclient"

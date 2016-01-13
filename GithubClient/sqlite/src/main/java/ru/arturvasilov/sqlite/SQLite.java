@@ -104,4 +104,8 @@ public class SQLite {
             mObservers.remove(index);
         }
     }
+
+    public <T> void notifyTableChanged(@NonNull Table<T> table) {
+        mContext.getContentResolver().notifyChange(table.getUri(), null);
+    }
 }
