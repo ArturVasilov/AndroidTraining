@@ -1,4 +1,4 @@
-package ru.samples.itis.githubclient.content;
+package ru.samples.itis.githubclient.content.auth;
 
 import com.google.gson.annotations.SerializedName;
 

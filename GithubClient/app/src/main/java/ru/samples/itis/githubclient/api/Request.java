@@ -1,5 +1,6 @@
 package ru.samples.itis.githubclient.api;
 
+import android.content.Context;
 import android.support.annotation.NonNull;
 
 import java.io.Serializable;
@@ -9,6 +10,6 @@ import java.io.Serializable;
  */
 public interface Request extends Serializable {
 
-    void process(@NonNull GithubService service);
+    void process(Context context, @NonNull GithubService service);
 
 }

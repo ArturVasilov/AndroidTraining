@@ -13,16 +13,16 @@ import ru.samples.itis.githubclient.content.Repository;
 /**
  * @author Artur Vasilov
  */
-public class RepositoryTable extends BaseTable<Repository> {
+public final class RepositoryTable extends BaseTable<Repository> {
 
     public static final Table<Repository> TABLE = new RepositoryTable();
 
-    private static final String NAME_COLUMN = "name";
-    private static final String DESCRIPTION_COLUMN = "description";
-    private static final String LANGUAGE_COLUMN = "language";
-    private static final String STARS_COLUMN = "stars";
-    private static final String FORKS_COLUMN = "forks";
-    private static final String WATCHERS_COLUMN = "watchers";
+    public static final String NAME_COLUMN = "name";
+    public static final String DESCRIPTION_COLUMN = "description";
+    public static final String LANGUAGE_COLUMN = "language";
+    public static final String STARS_COLUMN = "stars";
+    public static final String FORKS_COLUMN = "forks";
+    public static final String WATCHERS_COLUMN = "watchers";
 
     private RepositoryTable() {
     }

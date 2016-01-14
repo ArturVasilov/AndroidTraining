@@ -8,8 +8,10 @@ import retrofit.http.Body;
 import retrofit.http.GET;
 import retrofit.http.Header;
 import retrofit.http.POST;
-import ru.samples.itis.githubclient.content.Authorization;
+import retrofit.http.Path;
+import ru.samples.itis.githubclient.content.CommitsResponse;
 import ru.samples.itis.githubclient.content.Repository;
+import ru.samples.itis.githubclient.content.auth.Authorization;
 import rx.Observable;
 
 /**
@@ -24,4 +26,6 @@ public interface GithubService {
     @GET("/user/repos")
     Observable<List<Repository>> repositories();
 
+    @GET("/repos/{user}/{repo}/commits")
+    Observable<List<CommitsResponse>> commits(@Path("user") String user, @Path("repo") String repo);
 }

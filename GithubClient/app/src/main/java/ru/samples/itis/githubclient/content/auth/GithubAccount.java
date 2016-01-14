@@ -49,6 +49,11 @@ public class GithubAccount extends Account {
         return mAuthToken;
     }
 
+    @NonNull
+    public static String getLogin(Context context) {
+        return AccountManager.get(context).getUserData(getUserAccount(context), LOGIN_KEY);
+    }
+
     @Nullable
     public static Account getUserAccount(Context context) {
         AccountManager accountManager = AccountManager.get(context);

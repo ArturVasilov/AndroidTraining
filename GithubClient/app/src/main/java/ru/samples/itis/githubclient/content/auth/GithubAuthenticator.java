@@ -14,7 +14,6 @@ import javax.inject.Inject;
 
 import ru.samples.itis.githubclient.activity.auth.LogInActivity;
 import ru.samples.itis.githubclient.api.GithubService;
-import ru.samples.itis.githubclient.content.Authorization;
 import ru.samples.itis.githubclient.di.Graphs;
 import rx.Subscriber;
 

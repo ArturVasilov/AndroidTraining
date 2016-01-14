@@ -35,8 +35,10 @@ public class RequestsService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Request request = (Request) intent.getSerializableExtra(REQUEST_KEY);
-        request.process(mService);
+        if (intent != null) {
+            Request request = (Request) intent.getSerializableExtra(REQUEST_KEY);
+            request.process(this, mService);
+        }
         return super.onStartCommand(intent, flags, startId);
     }
 

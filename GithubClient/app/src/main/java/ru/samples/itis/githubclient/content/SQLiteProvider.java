@@ -5,6 +5,7 @@ import android.support.annotation.NonNull;
 import ru.arturvasilov.sqlite.core.SQLiteConfig;
 import ru.arturvasilov.sqlite.core.SQLiteContentProvider;
 import ru.arturvasilov.sqlite.core.Schema;
+import ru.samples.itis.githubclient.content.tables.CommitsTable;
 import ru.samples.itis.githubclient.content.tables.RepositoryTable;
 
 /**
@@ -24,5 +25,6 @@ public class SQLiteProvider extends SQLiteContentProvider {
     @Override
     protected void prepareSchema(@NonNull Schema schema) {
         schema.register(RepositoryTable.TABLE);
+        schema.register(CommitsTable.TABLE);
     }
 }

@@ -5,6 +5,7 @@ import android.support.annotation.NonNull;
 import android.view.View;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import ru.arturvasilov.sqlite.SQLite;
@@ -19,7 +20,7 @@ import ru.samples.itis.githubclient.content.tables.RepositoryTable;
 public class RepositoriesAdapter extends BaseRecyclerAdapter<RepositoriesAdapter.RepositoryHolder, Repository> implements TableObserver {
 
     public RepositoriesAdapter() {
-        super(SQLite.get().query(RepositoryTable.TABLE).all().execute());
+        super(new ArrayList<>());
     }
 
     @LayoutRes

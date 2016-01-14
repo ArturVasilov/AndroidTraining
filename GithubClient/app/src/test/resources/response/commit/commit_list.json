@@ -1,0 +1,1109 @@
+[
+  {
+    "sha": "9fc4814a6749fbe0a7a082c0a7f5eda475eeee4c",
+    "commit": {
+      "author": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2016-01-13T09:02:04Z"
+      },
+      "committer": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2016-01-13T09:02:04Z"
+      },
+      "message": "move requests to service",
+      "tree": {
+        "sha": "db5e67c605b1656fcb6eda34845266a09d189269",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/db5e67c605b1656fcb6eda34845266a09d189269"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/9fc4814a6749fbe0a7a082c0a7f5eda475eeee4c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/9fc4814a6749fbe0a7a082c0a7f5eda475eeee4c",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/9fc4814a6749fbe0a7a082c0a7f5eda475eeee4c",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/9fc4814a6749fbe0a7a082c0a7f5eda475eeee4c/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "82183c2f10273ebf20f7d12aee7cfd70e7a9ff51",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/82183c2f10273ebf20f7d12aee7cfd70e7a9ff51",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/82183c2f10273ebf20f7d12aee7cfd70e7a9ff51"
+      }
+    ]
+  },
+  {
+    "sha": "82183c2f10273ebf20f7d12aee7cfd70e7a9ff51",
+    "commit": {
+      "author": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2016-01-13T08:24:12Z"
+      },
+      "committer": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2016-01-13T08:24:12Z"
+      },
+      "message": "added content observers api for sqlite",
+      "tree": {
+        "sha": "19375ce51d7a072abaf76fbe65c220633f134702",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/19375ce51d7a072abaf76fbe65c220633f134702"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/82183c2f10273ebf20f7d12aee7cfd70e7a9ff51",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/82183c2f10273ebf20f7d12aee7cfd70e7a9ff51",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/82183c2f10273ebf20f7d12aee7cfd70e7a9ff51",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/82183c2f10273ebf20f7d12aee7cfd70e7a9ff51/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "5e0e01aa92d51f436c97964a30bb3fa85613203c",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/5e0e01aa92d51f436c97964a30bb3fa85613203c",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/5e0e01aa92d51f436c97964a30bb3fa85613203c"
+      }
+    ]
+  },
+  {
+    "sha": "5e0e01aa92d51f436c97964a30bb3fa85613203c",
+    "commit": {
+      "author": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2016-01-12T07:13:44Z"
+      },
+      "committer": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2016-01-12T07:13:44Z"
+      },
+      "message": "write tests for database core part",
+      "tree": {
+        "sha": "75af716e051df73be392a399e2c883c0e40991ea",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/75af716e051df73be392a399e2c883c0e40991ea"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/5e0e01aa92d51f436c97964a30bb3fa85613203c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/5e0e01aa92d51f436c97964a30bb3fa85613203c",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/5e0e01aa92d51f436c97964a30bb3fa85613203c",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/5e0e01aa92d51f436c97964a30bb3fa85613203c/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "f6935debcaf41c6f1855128b0448283cf1de3a00",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/f6935debcaf41c6f1855128b0448283cf1de3a00",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/f6935debcaf41c6f1855128b0448283cf1de3a00"
+      }
+    ]
+  },
+  {
+    "sha": "f6935debcaf41c6f1855128b0448283cf1de3a00",
+    "commit": {
+      "author": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2016-01-11T09:18:19Z"
+      },
+      "committer": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2016-01-11T09:18:19Z"
+      },
+      "message": "created authorization and token saving",
+      "tree": {
+        "sha": "f9301f0b59681b7012b3a5121f2ed4f69323e329",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/f9301f0b59681b7012b3a5121f2ed4f69323e329"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/f6935debcaf41c6f1855128b0448283cf1de3a00",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/f6935debcaf41c6f1855128b0448283cf1de3a00",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/f6935debcaf41c6f1855128b0448283cf1de3a00",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/f6935debcaf41c6f1855128b0448283cf1de3a00/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "cc8326db19c586c7e6f42de33bd9600f29a1485c",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/cc8326db19c586c7e6f42de33bd9600f29a1485c",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/cc8326db19c586c7e6f42de33bd9600f29a1485c"
+      }
+    ]
+  },
+  {
+    "sha": "cc8326db19c586c7e6f42de33bd9600f29a1485c",
+    "commit": {
+      "author": {
+        "name": "Artur Vasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2016-01-10T21:13:08Z"
+      },
+      "committer": {
+        "name": "Artur Vasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2016-01-10T21:13:08Z"
+      },
+      "message": "added some new features",
+      "tree": {
+        "sha": "390e54d8687b3510c0e60a76e0b5fd33dcafb3d9",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/390e54d8687b3510c0e60a76e0b5fd33dcafb3d9"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/cc8326db19c586c7e6f42de33bd9600f29a1485c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/cc8326db19c586c7e6f42de33bd9600f29a1485c",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/cc8326db19c586c7e6f42de33bd9600f29a1485c",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/cc8326db19c586c7e6f42de33bd9600f29a1485c/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "11d8f623f80b5e0cef381ce81fad1151595b974a",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/11d8f623f80b5e0cef381ce81fad1151595b974a",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/11d8f623f80b5e0cef381ce81fad1151595b974a"
+      }
+    ]
+  },
+  {
+    "sha": "11d8f623f80b5e0cef381ce81fad1151595b974a",
+    "commit": {
+      "author": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-30T12:33:51Z"
+      },
+      "committer": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-30T12:33:51Z"
+      },
+      "message": "started to add authenticator",
+      "tree": {
+        "sha": "ee5b82313b3eb2c2d50371bb01628ddfa38d8c04",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/ee5b82313b3eb2c2d50371bb01628ddfa38d8c04"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/11d8f623f80b5e0cef381ce81fad1151595b974a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/11d8f623f80b5e0cef381ce81fad1151595b974a",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/11d8f623f80b5e0cef381ce81fad1151595b974a",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/11d8f623f80b5e0cef381ce81fad1151595b974a/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "764410df7df13c7ee1a6ecd7c1808f664392d5b0",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/764410df7df13c7ee1a6ecd7c1808f664392d5b0",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/764410df7df13c7ee1a6ecd7c1808f664392d5b0"
+      }
+    ]
+  },
+  {
+    "sha": "764410df7df13c7ee1a6ecd7c1808f664392d5b0",
+    "commit": {
+      "author": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-30T11:40:59Z"
+      },
+      "committer": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-30T11:40:59Z"
+      },
+      "message": "added account authenticator",
+      "tree": {
+        "sha": "318775a2b587b88451b770bab0f1c2bc03fa6f23",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/318775a2b587b88451b770bab0f1c2bc03fa6f23"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/764410df7df13c7ee1a6ecd7c1808f664392d5b0",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/764410df7df13c7ee1a6ecd7c1808f664392d5b0",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/764410df7df13c7ee1a6ecd7c1808f664392d5b0",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/764410df7df13c7ee1a6ecd7c1808f664392d5b0/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "56af2211065f61387090a33cd934044f7388ca76",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/56af2211065f61387090a33cd934044f7388ca76",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/56af2211065f61387090a33cd934044f7388ca76"
+      }
+    ]
+  },
+  {
+    "sha": "56af2211065f61387090a33cd934044f7388ca76",
+    "commit": {
+      "author": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-30T10:42:49Z"
+      },
+      "committer": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-30T10:42:49Z"
+      },
+      "message": "created some new tests",
+      "tree": {
+        "sha": "b218b19d3173abf0e975f1e0f5ca2ed399f53ef8",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/b218b19d3173abf0e975f1e0f5ca2ed399f53ef8"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/56af2211065f61387090a33cd934044f7388ca76",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/56af2211065f61387090a33cd934044f7388ca76",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/56af2211065f61387090a33cd934044f7388ca76",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/56af2211065f61387090a33cd934044f7388ca76/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "b22b1dc4b71582308335abd00464aecb4de71899",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/b22b1dc4b71582308335abd00464aecb4de71899",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/b22b1dc4b71582308335abd00464aecb4de71899"
+      }
+    ]
+  },
+  {
+    "sha": "b22b1dc4b71582308335abd00464aecb4de71899",
+    "commit": {
+      "author": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-30T09:34:27Z"
+      },
+      "committer": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-30T09:34:27Z"
+      },
+      "message": "worked with authorization",
+      "tree": {
+        "sha": "471b8fae6e52249e7736f7a27a2ee67ad32dd973",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/471b8fae6e52249e7736f7a27a2ee67ad32dd973"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/b22b1dc4b71582308335abd00464aecb4de71899",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/b22b1dc4b71582308335abd00464aecb4de71899",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/b22b1dc4b71582308335abd00464aecb4de71899",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/b22b1dc4b71582308335abd00464aecb4de71899/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "58a2eabeebe30e194b60a76c391deecf1aae06f7",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/58a2eabeebe30e194b60a76c391deecf1aae06f7",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/58a2eabeebe30e194b60a76c391deecf1aae06f7"
+      }
+    ]
+  },
+  {
+    "sha": "58a2eabeebe30e194b60a76c391deecf1aae06f7",
+    "commit": {
+      "author": {
+        "name": "Artur Vasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-29T19:41:36Z"
+      },
+      "committer": {
+        "name": "Artur Vasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-29T19:41:36Z"
+      },
+      "message": "created base ui tests",
+      "tree": {
+        "sha": "c640f34ad26ace80e8b53ba59d6f22a54aaf6dee",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/c640f34ad26ace80e8b53ba59d6f22a54aaf6dee"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/58a2eabeebe30e194b60a76c391deecf1aae06f7",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/58a2eabeebe30e194b60a76c391deecf1aae06f7",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/58a2eabeebe30e194b60a76c391deecf1aae06f7",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/58a2eabeebe30e194b60a76c391deecf1aae06f7/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "076744401b98c0b3f23e8646057e30261c86c2d9",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/076744401b98c0b3f23e8646057e30261c86c2d9",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/076744401b98c0b3f23e8646057e30261c86c2d9"
+      }
+    ]
+  },
+  {
+    "sha": "076744401b98c0b3f23e8646057e30261c86c2d9",
+    "commit": {
+      "author": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-29T10:23:10Z"
+      },
+      "committer": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-29T10:23:10Z"
+      },
+      "message": "trying to add network architecture",
+      "tree": {
+        "sha": "cbe2005bfe5dd20be98e6a4424a10b942849121e",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/cbe2005bfe5dd20be98e6a4424a10b942849121e"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/076744401b98c0b3f23e8646057e30261c86c2d9",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/076744401b98c0b3f23e8646057e30261c86c2d9",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/076744401b98c0b3f23e8646057e30261c86c2d9",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/076744401b98c0b3f23e8646057e30261c86c2d9/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "0eb299d7574d88b8795e7c29813c1bd3813f7051",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/0eb299d7574d88b8795e7c29813c1bd3813f7051",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/0eb299d7574d88b8795e7c29813c1bd3813f7051"
+      }
+    ]
+  },
+  {
+    "sha": "0eb299d7574d88b8795e7c29813c1bd3813f7051",
+    "commit": {
+      "author": {
+        "name": "Artur Vasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-27T18:05:09Z"
+      },
+      "committer": {
+        "name": "Artur Vasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-27T18:05:09Z"
+      },
+      "message": "update the database core code",
+      "tree": {
+        "sha": "e59e928a878415ef48747db904eada8edc94e7af",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/e59e928a878415ef48747db904eada8edc94e7af"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/0eb299d7574d88b8795e7c29813c1bd3813f7051",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/0eb299d7574d88b8795e7c29813c1bd3813f7051",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/0eb299d7574d88b8795e7c29813c1bd3813f7051",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/0eb299d7574d88b8795e7c29813c1bd3813f7051/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "51f1e46f89922d69d0aee3e13d6cb7106dda4514",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/51f1e46f89922d69d0aee3e13d6cb7106dda4514",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/51f1e46f89922d69d0aee3e13d6cb7106dda4514"
+      }
+    ]
+  },
+  {
+    "sha": "51f1e46f89922d69d0aee3e13d6cb7106dda4514",
+    "commit": {
+      "author": {
+        "name": "Artur Vasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-26T17:47:56Z"
+      },
+      "committer": {
+        "name": "Artur Vasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-26T17:47:56Z"
+      },
+      "message": "worked with database layer, created some tests",
+      "tree": {
+        "sha": "95e1517be41a68a0b9b40b04ad44243f35b0230e",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/95e1517be41a68a0b9b40b04ad44243f35b0230e"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/51f1e46f89922d69d0aee3e13d6cb7106dda4514",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/51f1e46f89922d69d0aee3e13d6cb7106dda4514",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/51f1e46f89922d69d0aee3e13d6cb7106dda4514",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/51f1e46f89922d69d0aee3e13d6cb7106dda4514/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "49c565c09bcc85f25b2c208b9a04b5357d0f1ebe",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/49c565c09bcc85f25b2c208b9a04b5357d0f1ebe",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/49c565c09bcc85f25b2c208b9a04b5357d0f1ebe"
+      }
+    ]
+  },
+  {
+    "sha": "49c565c09bcc85f25b2c208b9a04b5357d0f1ebe",
+    "commit": {
+      "author": {
+        "name": "Artur Vasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-15T15:04:38Z"
+      },
+      "committer": {
+        "name": "Artur Vasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-15T15:04:38Z"
+      },
+      "message": "added new templates for projects",
+      "tree": {
+        "sha": "4ba1a4566ca82d7c847c0e165faa125f797ab0cb",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/4ba1a4566ca82d7c847c0e165faa125f797ab0cb"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/49c565c09bcc85f25b2c208b9a04b5357d0f1ebe",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/49c565c09bcc85f25b2c208b9a04b5357d0f1ebe",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/49c565c09bcc85f25b2c208b9a04b5357d0f1ebe",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/49c565c09bcc85f25b2c208b9a04b5357d0f1ebe/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "44f47cbe2fcef79279ddad8f292c600ad2932930",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/44f47cbe2fcef79279ddad8f292c600ad2932930",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/44f47cbe2fcef79279ddad8f292c600ad2932930"
+      }
+    ]
+  },
+  {
+    "sha": "44f47cbe2fcef79279ddad8f292c600ad2932930",
+    "commit": {
+      "author": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-11T07:58:09Z"
+      },
+      "committer": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-11T07:58:09Z"
+      },
+      "message": "added some new samples and practice for data binding",
+      "tree": {
+        "sha": "37dd0d64aeb1abee32c0a05c4ed54a78b241dd0c",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/37dd0d64aeb1abee32c0a05c4ed54a78b241dd0c"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/44f47cbe2fcef79279ddad8f292c600ad2932930",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/44f47cbe2fcef79279ddad8f292c600ad2932930",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/44f47cbe2fcef79279ddad8f292c600ad2932930",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/44f47cbe2fcef79279ddad8f292c600ad2932930/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "22cc3065986cf3b0030c1e4942a0830bd6a3822e",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/22cc3065986cf3b0030c1e4942a0830bd6a3822e",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/22cc3065986cf3b0030c1e4942a0830bd6a3822e"
+      }
+    ]
+  },
+  {
+    "sha": "22cc3065986cf3b0030c1e4942a0830bd6a3822e",
+    "commit": {
+      "author": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-11T07:56:40Z"
+      },
+      "committer": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-11T07:56:40Z"
+      },
+      "message": "Merge branch 'master' of https://github.com/ArturVasilov/AndroidTraining",
+      "tree": {
+        "sha": "854767ee4324685427aa01ef09907c3b8b013093",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/854767ee4324685427aa01ef09907c3b8b013093"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/22cc3065986cf3b0030c1e4942a0830bd6a3822e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/22cc3065986cf3b0030c1e4942a0830bd6a3822e",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/22cc3065986cf3b0030c1e4942a0830bd6a3822e",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/22cc3065986cf3b0030c1e4942a0830bd6a3822e/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "e37e19c5eb9dd40d2b68a880f0d2e5572bf22a31",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/e37e19c5eb9dd40d2b68a880f0d2e5572bf22a31",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/e37e19c5eb9dd40d2b68a880f0d2e5572bf22a31"
+      },
+      {
+        "sha": "acb29ac662374b802041799c0006dd92547958b3",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/acb29ac662374b802041799c0006dd92547958b3",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/acb29ac662374b802041799c0006dd92547958b3"
+      }
+    ]
+  },
+  {
+    "sha": "e37e19c5eb9dd40d2b68a880f0d2e5572bf22a31",
+    "commit": {
+      "author": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-11T07:56:34Z"
+      },
+      "committer": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-11T07:56:34Z"
+      },
+      "message": "added some new samples and databinding to github client",
+      "tree": {
+        "sha": "3886447851e12bf763a47ea101b0d6143173b3c7",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/3886447851e12bf763a47ea101b0d6143173b3c7"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/e37e19c5eb9dd40d2b68a880f0d2e5572bf22a31",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/e37e19c5eb9dd40d2b68a880f0d2e5572bf22a31",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/e37e19c5eb9dd40d2b68a880f0d2e5572bf22a31",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/e37e19c5eb9dd40d2b68a880f0d2e5572bf22a31/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "e47a463ea4be297d0a16119684109a4b96f12d29",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/e47a463ea4be297d0a16119684109a4b96f12d29",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/e47a463ea4be297d0a16119684109a4b96f12d29"
+      }
+    ]
+  },
+  {
+    "sha": "acb29ac662374b802041799c0006dd92547958b3",
+    "commit": {
+      "author": {
+        "name": "Artur Vasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-10T20:08:39Z"
+      },
+      "committer": {
+        "name": "Artur Vasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-10T20:08:39Z"
+      },
+      "message": "small build fix",
+      "tree": {
+        "sha": "a15533f05096c85ea2553c7b8f2885012bc030b2",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/a15533f05096c85ea2553c7b8f2885012bc030b2"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/acb29ac662374b802041799c0006dd92547958b3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/acb29ac662374b802041799c0006dd92547958b3",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/acb29ac662374b802041799c0006dd92547958b3",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/acb29ac662374b802041799c0006dd92547958b3/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "e03f3979cd3775b0a29a7f7f701cefaac5f5c1c6",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/e03f3979cd3775b0a29a7f7f701cefaac5f5c1c6",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/e03f3979cd3775b0a29a7f7f701cefaac5f5c1c6"
+      }
+    ]
+  },
+  {
+    "sha": "e03f3979cd3775b0a29a7f7f701cefaac5f5c1c6",
+    "commit": {
+      "author": {
+        "name": "Artur Vasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-10T20:05:24Z"
+      },
+      "committer": {
+        "name": "Artur Vasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-10T20:05:24Z"
+      },
+      "message": "fix merge",
+      "tree": {
+        "sha": "8301d70d27e8653c63a99598deafef12bba0aaa1",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/8301d70d27e8653c63a99598deafef12bba0aaa1"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/e03f3979cd3775b0a29a7f7f701cefaac5f5c1c6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/e03f3979cd3775b0a29a7f7f701cefaac5f5c1c6",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/e03f3979cd3775b0a29a7f7f701cefaac5f5c1c6",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/e03f3979cd3775b0a29a7f7f701cefaac5f5c1c6/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "04cb363343f7326f519ff1d1af1167949e4e4bfb",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/04cb363343f7326f519ff1d1af1167949e4e4bfb",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/04cb363343f7326f519ff1d1af1167949e4e4bfb"
+      },
+      {
+        "sha": "c0934a91cba9a6c51c25ac1eeb21b6ce52dd20ef",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/c0934a91cba9a6c51c25ac1eeb21b6ce52dd20ef",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/c0934a91cba9a6c51c25ac1eeb21b6ce52dd20ef"
+      }
+    ]
+  },
+  {
+    "sha": "04cb363343f7326f519ff1d1af1167949e4e4bfb",
+    "commit": {
+      "author": {
+        "name": "Artur Vasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-10T20:02:07Z"
+      },
+      "committer": {
+        "name": "Artur Vasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-10T20:02:07Z"
+      },
+      "message": "added location project",
+      "tree": {
+        "sha": "b51bea43f96713ce80d628813cc87f6a0ac960f9",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/b51bea43f96713ce80d628813cc87f6a0ac960f9"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/04cb363343f7326f519ff1d1af1167949e4e4bfb",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/04cb363343f7326f519ff1d1af1167949e4e4bfb",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/04cb363343f7326f519ff1d1af1167949e4e4bfb",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/04cb363343f7326f519ff1d1af1167949e4e4bfb/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "9d47807d03c49f66afe1d6428501b7bb8b0c5060",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/9d47807d03c49f66afe1d6428501b7bb8b0c5060",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/9d47807d03c49f66afe1d6428501b7bb8b0c5060"
+      }
+    ]
+  },
+  {
+    "sha": "e47a463ea4be297d0a16119684109a4b96f12d29",
+    "commit": {
+      "author": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-09T08:38:22Z"
+      },
+      "committer": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-09T08:38:22Z"
+      },
+      "message": "added dagger",
+      "tree": {
+        "sha": "6d2fb0e58536ef77755137e9137612f76579a442",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/6d2fb0e58536ef77755137e9137612f76579a442"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/e47a463ea4be297d0a16119684109a4b96f12d29",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/e47a463ea4be297d0a16119684109a4b96f12d29",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/e47a463ea4be297d0a16119684109a4b96f12d29",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/e47a463ea4be297d0a16119684109a4b96f12d29/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "c0934a91cba9a6c51c25ac1eeb21b6ce52dd20ef",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/c0934a91cba9a6c51c25ac1eeb21b6ce52dd20ef",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/c0934a91cba9a6c51c25ac1eeb21b6ce52dd20ef"
+      }
+    ]
+  },
+  {
+    "sha": "c0934a91cba9a6c51c25ac1eeb21b6ce52dd20ef",
+    "commit": {
+      "author": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-09T07:24:34Z"
+      },
+      "committer": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-09T07:24:34Z"
+      },
+      "message": "fix build",
+      "tree": {
+        "sha": "94b60327e7fa59e4d3de1d087abb9b00a1d2b06f",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/94b60327e7fa59e4d3de1d087abb9b00a1d2b06f"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/c0934a91cba9a6c51c25ac1eeb21b6ce52dd20ef",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/c0934a91cba9a6c51c25ac1eeb21b6ce52dd20ef",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/c0934a91cba9a6c51c25ac1eeb21b6ce52dd20ef",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/c0934a91cba9a6c51c25ac1eeb21b6ce52dd20ef/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "e068a03913f503aab285358d77a9c28a57fc6c1f",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/e068a03913f503aab285358d77a9c28a57fc6c1f",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/e068a03913f503aab285358d77a9c28a57fc6c1f"
+      }
+    ]
+  },
+  {
+    "sha": "e068a03913f503aab285358d77a9c28a57fc6c1f",
+    "commit": {
+      "author": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-04T06:29:55Z"
+      },
+      "committer": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-04T06:29:55Z"
+      },
+      "message": "added gitignore",
+      "tree": {
+        "sha": "40c6789b54ffb0ac5c701ccd58c766ca00ad94c9",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/40c6789b54ffb0ac5c701ccd58c766ca00ad94c9"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/e068a03913f503aab285358d77a9c28a57fc6c1f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/e068a03913f503aab285358d77a9c28a57fc6c1f",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/e068a03913f503aab285358d77a9c28a57fc6c1f",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/e068a03913f503aab285358d77a9c28a57fc6c1f/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "61d1d99f631bd3001032e3cb67d1358ac514540d",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/61d1d99f631bd3001032e3cb67d1358ac514540d",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/61d1d99f631bd3001032e3cb67d1358ac514540d"
+      }
+    ]
+  },
+  {
+    "sha": "61d1d99f631bd3001032e3cb67d1358ac514540d",
+    "commit": {
+      "author": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-04T06:27:43Z"
+      },
+      "committer": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-04T06:27:43Z"
+      },
+      "message": "checked view touch events order",
+      "tree": {
+        "sha": "a045a2b051af2999d888140c53769557724c6246",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/a045a2b051af2999d888140c53769557724c6246"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/61d1d99f631bd3001032e3cb67d1358ac514540d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/61d1d99f631bd3001032e3cb67d1358ac514540d",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/61d1d99f631bd3001032e3cb67d1358ac514540d",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/61d1d99f631bd3001032e3cb67d1358ac514540d/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "9d47807d03c49f66afe1d6428501b7bb8b0c5060",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/9d47807d03c49f66afe1d6428501b7bb8b0c5060",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/9d47807d03c49f66afe1d6428501b7bb8b0c5060"
+      }
+    ]
+  },
+  {
+    "sha": "9d47807d03c49f66afe1d6428501b7bb8b0c5060",
+    "commit": {
+      "author": {
+        "name": "Artur Vasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-02T19:59:35Z"
+      },
+      "committer": {
+        "name": "Artur Vasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-12-02T19:59:35Z"
+      },
+      "message": "add flavor dependency",
+      "tree": {
+        "sha": "c0906500a62956340690ec30b28648635f0423d4",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/c0906500a62956340690ec30b28648635f0423d4"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/9d47807d03c49f66afe1d6428501b7bb8b0c5060",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/9d47807d03c49f66afe1d6428501b7bb8b0c5060",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/9d47807d03c49f66afe1d6428501b7bb8b0c5060",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/9d47807d03c49f66afe1d6428501b7bb8b0c5060/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "8da8f634766afe66c6f20b6ae164ffb1fe322b7c",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/8da8f634766afe66c6f20b6ae164ffb1fe322b7c",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/8da8f634766afe66c6f20b6ae164ffb1fe322b7c"
+      }
+    ]
+  },
+  {
+    "sha": "8da8f634766afe66c6f20b6ae164ffb1fe322b7c",
+    "commit": {
+      "author": {
+        "name": "Artur Vasilov",
+        "email": "artur_8005@mail.ru",
+        "date": "2015-11-30T20:49:27Z"
+      },
+      "committer": {
+        "name": "Artur Vasilov",
+        "email": "artur_8005@mail.ru",
+        "date": "2015-11-30T20:49:27Z"
+      },
+      "message": "Merge pull request #1 from Vetryanuj/patch-2\n\nUpdate PersonsProvider.java",
+      "tree": {
+        "sha": "39e4b7c5aa363bce21692aa2e7e7993e88a5502a",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/39e4b7c5aa363bce21692aa2e7e7993e88a5502a"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/8da8f634766afe66c6f20b6ae164ffb1fe322b7c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/8da8f634766afe66c6f20b6ae164ffb1fe322b7c",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/8da8f634766afe66c6f20b6ae164ffb1fe322b7c",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/8da8f634766afe66c6f20b6ae164ffb1fe322b7c/comments",
+    "author": {
+      "login": "ArturVasilov",
+      "id": 6129801,
+      "avatar_url": "https://avatars.githubusercontent.com/u/6129801?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ArturVasilov",
+      "html_url": "https://github.com/ArturVasilov",
+      "followers_url": "https://api.github.com/users/ArturVasilov/followers",
+      "following_url": "https://api.github.com/users/ArturVasilov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ArturVasilov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ArturVasilov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ArturVasilov/subscriptions",
+      "organizations_url": "https://api.github.com/users/ArturVasilov/orgs",
+      "repos_url": "https://api.github.com/users/ArturVasilov/repos",
+      "events_url": "https://api.github.com/users/ArturVasilov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ArturVasilov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ArturVasilov",
+      "id": 6129801,
+      "avatar_url": "https://avatars.githubusercontent.com/u/6129801?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ArturVasilov",
+      "html_url": "https://github.com/ArturVasilov",
+      "followers_url": "https://api.github.com/users/ArturVasilov/followers",
+      "following_url": "https://api.github.com/users/ArturVasilov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ArturVasilov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ArturVasilov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ArturVasilov/subscriptions",
+      "organizations_url": "https://api.github.com/users/ArturVasilov/orgs",
+      "repos_url": "https://api.github.com/users/ArturVasilov/repos",
+      "events_url": "https://api.github.com/users/ArturVasilov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ArturVasilov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "99f50b90849f79eaa2fbe76c05e622d004521227",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/99f50b90849f79eaa2fbe76c05e622d004521227",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/99f50b90849f79eaa2fbe76c05e622d004521227"
+      },
+      {
+        "sha": "1bb992e114e7b4f97e7db95df85ac00e1863db00",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/1bb992e114e7b4f97e7db95df85ac00e1863db00",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/1bb992e114e7b4f97e7db95df85ac00e1863db00"
+      }
+    ]
+  },
+  {
+    "sha": "1bb992e114e7b4f97e7db95df85ac00e1863db00",
+    "commit": {
+      "author": {
+        "name": "Vetryanuj",
+        "email": "kolyaok@rambler.ru",
+        "date": "2015-11-30T18:32:52Z"
+      },
+      "committer": {
+        "name": "Vetryanuj",
+        "email": "kolyaok@rambler.ru",
+        "date": "2015-11-30T18:32:52Z"
+      },
+      "message": "Update PersonsProvider.java\n\n)",
+      "tree": {
+        "sha": "39e4b7c5aa363bce21692aa2e7e7993e88a5502a",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/39e4b7c5aa363bce21692aa2e7e7993e88a5502a"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/1bb992e114e7b4f97e7db95df85ac00e1863db00",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/1bb992e114e7b4f97e7db95df85ac00e1863db00",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/1bb992e114e7b4f97e7db95df85ac00e1863db00",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/1bb992e114e7b4f97e7db95df85ac00e1863db00/comments",
+    "author": {
+      "login": "Vetryanuj",
+      "id": 8013212,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8013212?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Vetryanuj",
+      "html_url": "https://github.com/Vetryanuj",
+      "followers_url": "https://api.github.com/users/Vetryanuj/followers",
+      "following_url": "https://api.github.com/users/Vetryanuj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Vetryanuj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Vetryanuj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Vetryanuj/subscriptions",
+      "organizations_url": "https://api.github.com/users/Vetryanuj/orgs",
+      "repos_url": "https://api.github.com/users/Vetryanuj/repos",
+      "events_url": "https://api.github.com/users/Vetryanuj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Vetryanuj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Vetryanuj",
+      "id": 8013212,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8013212?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Vetryanuj",
+      "html_url": "https://github.com/Vetryanuj",
+      "followers_url": "https://api.github.com/users/Vetryanuj/followers",
+      "following_url": "https://api.github.com/users/Vetryanuj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Vetryanuj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Vetryanuj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Vetryanuj/subscriptions",
+      "organizations_url": "https://api.github.com/users/Vetryanuj/orgs",
+      "repos_url": "https://api.github.com/users/Vetryanuj/repos",
+      "events_url": "https://api.github.com/users/Vetryanuj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Vetryanuj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "99f50b90849f79eaa2fbe76c05e622d004521227",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/99f50b90849f79eaa2fbe76c05e622d004521227",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/99f50b90849f79eaa2fbe76c05e622d004521227"
+      }
+    ]
+  },
+  {
+    "sha": "99f50b90849f79eaa2fbe76c05e622d004521227",
+    "commit": {
+      "author": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-11-27T07:54:27Z"
+      },
+      "committer": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-11-27T07:54:27Z"
+      },
+      "message": "started work with sensors",
+      "tree": {
+        "sha": "72864f3f309dfd65d84ec72757982235474f6ed4",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/72864f3f309dfd65d84ec72757982235474f6ed4"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/99f50b90849f79eaa2fbe76c05e622d004521227",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/99f50b90849f79eaa2fbe76c05e622d004521227",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/99f50b90849f79eaa2fbe76c05e622d004521227",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/99f50b90849f79eaa2fbe76c05e622d004521227/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "968ea98ed9f5760e0634ff8fa7b8fd3d49217d3e",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/968ea98ed9f5760e0634ff8fa7b8fd3d49217d3e",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/968ea98ed9f5760e0634ff8fa7b8fd3d49217d3e"
+      }
+    ]
+  },
+  {
+    "sha": "968ea98ed9f5760e0634ff8fa7b8fd3d49217d3e",
+    "commit": {
+      "author": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-11-25T07:00:39Z"
+      },
+      "committer": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-11-25T07:00:39Z"
+      },
+      "message": "worked with touches",
+      "tree": {
+        "sha": "c6cfa50d18cfc00d502558c5731b98b5d88b7d5e",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/c6cfa50d18cfc00d502558c5731b98b5d88b7d5e"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/968ea98ed9f5760e0634ff8fa7b8fd3d49217d3e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/968ea98ed9f5760e0634ff8fa7b8fd3d49217d3e",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/968ea98ed9f5760e0634ff8fa7b8fd3d49217d3e",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/968ea98ed9f5760e0634ff8fa7b8fd3d49217d3e/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "93959cfe90fc0bfc40acf58d50d17674d44cb736",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/93959cfe90fc0bfc40acf58d50d17674d44cb736",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/93959cfe90fc0bfc40acf58d50d17674d44cb736"
+      }
+    ]
+  },
+  {
+    "sha": "93959cfe90fc0bfc40acf58d50d17674d44cb736",
+    "commit": {
+      "author": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-11-25T05:08:30Z"
+      },
+      "committer": {
+        "name": "AVasilov",
+        "email": "artur.vasilov@dz.ru",
+        "date": "2015-11-25T05:08:30Z"
+      },
+      "message": "updated progress",
+      "tree": {
+        "sha": "c23eee83db3db6c963d01cf4614e7d58a2bc13ec",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/trees/c23eee83db3db6c963d01cf4614e7d58a2bc13ec"
+      },
+      "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/git/commits/93959cfe90fc0bfc40acf58d50d17674d44cb736",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/93959cfe90fc0bfc40acf58d50d17674d44cb736",
+    "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/93959cfe90fc0bfc40acf58d50d17674d44cb736",
+    "comments_url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/93959cfe90fc0bfc40acf58d50d17674d44cb736/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "1f8e2258bc6dbdf658f9953ae90819052d989094",
+        "url": "https://api.github.com/repos/ArturVasilov/AndroidTraining/commits/1f8e2258bc6dbdf658f9953ae90819052d989094",
+        "html_url": "https://github.com/ArturVasilov/AndroidTraining/commit/1f8e2258bc6dbdf658f9953ae90819052d989094"
+      }
+    ]
+  }
+]

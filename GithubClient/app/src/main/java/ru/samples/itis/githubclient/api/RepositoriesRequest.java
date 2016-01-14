@@ -1,5 +1,6 @@
 package ru.samples.itis.githubclient.api;
 
+import android.content.Context;
 import android.support.annotation.NonNull;
 
 import java.util.List;
@@ -16,7 +17,7 @@ import rx.schedulers.Schedulers;
 public class RepositoriesRequest implements Request {
 
     @Override
-    public void process(@NonNull GithubService service) {
+    public void process(Context context, @NonNull GithubService service) {
         service.repositories()
                 .subscribeOn(Schedulers.io())
                 .observeOn(Schedulers.io())

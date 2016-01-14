@@ -87,7 +87,7 @@ public class SQLite {
         };
         mContext.getContentResolver().registerContentObserver(table.getUri(), false, contentObserver);
         mObservers.add(new Pair<>(observer, contentObserver));
-
+        observer.onTableChanged();
     }
 
     public void unregisterObserver(@NonNull TableObserver observer) {
