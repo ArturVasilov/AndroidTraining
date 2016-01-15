@@ -19,11 +19,13 @@ import java.util.List;
 public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.ContactsHolder> {
 
     private final Context mContext;
+    private final OnItemClick mOnItemClick;
 
     private final List<Contact> mContacts = new ArrayList<>();
 
-    public ContactsAdapter(Context context) {
+    public ContactsAdapter(Context context, @NonNull OnItemClick onItemClick) {
         mContext = context;
+        mOnItemClick = onItemClick;
 
         Cursor cursor = context.getContentResolver()
                 .query(ContactsContract.Contacts.CONTENT_URI, null, null, null, null);
@@ -43,12 +45,17 @@ public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.Contac
     @Override
     public void onBindViewHolder(ContactsHolder holder, int position) {
         Contact contact = mContacts.get(position);
+        holder.itemView.setTag(position);
         holder.bind(contact);
     }
 
     @Override
     public int getItemCount() {
         return mContacts.size();
+    }
+
+    public interface OnItemClick {
+        void onClick(@NonNull Contact contact);
     }
 
     protected class ContactsHolder extends RecyclerView.ViewHolder {
@@ -60,6 +67,13 @@ public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.Contac
             super(itemView);
             mNameTextView = (TextView) itemView.findViewById(R.id.contactName);
             mPhoneTextView = (TextView) itemView.findViewById(R.id.contactPhone);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    int position = (int) v.getTag();
+                    mOnItemClick.onClick(mContacts.get(position));
+                }
+            });
         }
 
         private void bind(@NonNull Contact contact) {

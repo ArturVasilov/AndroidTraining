@@ -61,10 +61,13 @@ public class Contact {
         Cursor cursor = context.getContentResolver().query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI, null,
                 ContactsContract.CommonDataKinds.Phone.CONTACT_ID + "=?", new String[]{String.valueOf(id)}, null);
         if (cursor != null && !cursor.isClosed()) {
-            if (cursor.moveToFirst()) {
-                return cursor.getString(cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
+            try {
+                if (cursor.moveToFirst()) {
+                    return cursor.getString(cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
+                }
+            } finally {
+                cursor.close();
             }
-            cursor.close();
         }
         return null;
     }
