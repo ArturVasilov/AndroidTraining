@@ -1,4 +1,4 @@
-package sms.arturvasilov.ru.smsmessaging;
+package ru.arturvasilov.testapp;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
