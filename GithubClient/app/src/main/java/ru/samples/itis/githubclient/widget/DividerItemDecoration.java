@@ -1,4 +1,4 @@
-package ru.arturvasilov.contacts;
+package ru.samples.itis.githubclient.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;

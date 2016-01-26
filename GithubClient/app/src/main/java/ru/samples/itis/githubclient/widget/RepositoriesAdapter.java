@@ -36,8 +36,9 @@ public class RepositoriesAdapter extends BaseRecyclerAdapter<RepositoriesAdapter
     }
 
     @Override
-    protected void populateHolder(@NonNull RepositoryHolder holder, @NonNull Repository value, int position) {
-        holder.mRepositoryName.setText(value.getName());
+    protected void populateHolder(@NonNull RepositoryHolder holder, @NonNull Repository repository, int position) {
+        holder.mRepositoryName.setText(repository.getName());
+        holder.mRepositoryLanguage.setText(repository.getLanguage());
     }
 
     @Override
@@ -48,11 +49,13 @@ public class RepositoriesAdapter extends BaseRecyclerAdapter<RepositoriesAdapter
 
     protected class RepositoryHolder extends BaseRecyclerAdapter.Holder {
 
-        private TextView mRepositoryName;
+        private final TextView mRepositoryName;
+        private final TextView mRepositoryLanguage;
 
         public RepositoryHolder(View itemView) {
             super(itemView);
             mRepositoryName = (TextView) itemView.findViewById(R.id.repositoryName);
+            mRepositoryLanguage = (TextView) itemView.findViewById(R.id.repositoryLanguage);
         }
     }
 

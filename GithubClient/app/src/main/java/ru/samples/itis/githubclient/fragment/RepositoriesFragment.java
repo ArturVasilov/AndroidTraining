@@ -10,13 +10,16 @@ import ru.arturvasilov.sqlite.SQLite;
 import ru.samples.itis.githubclient.R;
 import ru.samples.itis.githubclient.api.RepositoriesRequest;
 import ru.samples.itis.githubclient.api.RequestsService;
+import ru.samples.itis.githubclient.content.Repository;
 import ru.samples.itis.githubclient.content.tables.RepositoryTable;
+import ru.samples.itis.githubclient.widget.BaseRecyclerAdapter;
+import ru.samples.itis.githubclient.widget.DividerItemDecoration;
 import ru.samples.itis.githubclient.widget.RepositoriesAdapter;
 
 /**
  * @author Artur Vasilov
  */
-public class RepositoriesFragment extends BaseFragment {
+public class RepositoriesFragment extends BaseFragment implements BaseRecyclerAdapter.OnItemClickListener<Repository> {
 
     private RepositoriesAdapter mAdapter;
 
@@ -31,16 +34,19 @@ public class RepositoriesFragment extends BaseFragment {
 
         RecyclerView recyclerView = (RecyclerView) root;
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+        recyclerView.addItemDecoration(new DividerItemDecoration(getActivity()));
         recyclerView.setAdapter(mAdapter);
     }
 
     @Override
     protected void attachListeners() {
+        mAdapter.setOnItemClickListener(this);
         SQLite.get().registerObserver(RepositoryTable.TABLE, mAdapter);
     }
 
     @Override
     protected void detachListeners() {
+        mAdapter.setOnItemClickListener(null);
         SQLite.get().unregisterObserver(mAdapter);
     }
 
@@ -52,6 +58,11 @@ public class RepositoriesFragment extends BaseFragment {
     @LayoutRes
     @Override
     protected int getLayoutId() {
-        return R.layout.repositories_fragment;
+        return R.layout.recycler_fragment;
+    }
+
+    @Override
+    public void onItemClick(int position, @NonNull Repository repository) {
+
     }
 }
