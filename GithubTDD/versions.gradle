@@ -1,0 +1,22 @@
+ext {
+    supportVersion = '23.1.1'
+    okhttpVersion = '3.0.1'
+    retrofitVersion = '2.0.0-beta3'
+    rxjavamathVersion = '1.0.0'
+    rxandroidVersion = '1.0.1'
+
+    droidkitVersion = '5.3.2'
+    droidkitProcessorVersion = '5.2.1'
+    hockeyAppVersion = '3.5.0'
+    jodaTimeVersion = '2.8.2'
+    materialDialogsVersion = '0.8.5.3@aar'
+
+    robotoTextViewVersion = '2.4.0'
+
+    junitVersion = '4.12'
+    powerMockVersion = '1.6.2'
+    robolectricVersion = '3.0'
+    mockitoVersion = '2.0.31-beta'
+    espressoVersion = '2.2.1'
+    testRunnerVersion = '0.4.1'
+}

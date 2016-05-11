@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GithubClient</string>
+
+    <string name="login_hint">Login</string>
+    <string name="password_hint">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="error">Error</string>
+    <string name="please_wait">Please, wait</string>
+    <string name="log_in_progress">Signing in…</string>
+    <string name="empty_repositories">Your repository list is empty</string>
+
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="log_in_loader" type="id"/>
+    <item name="local_repositories_loader" type="id"/>
+    <item name="repositories_loader" type="id"/>
+</resources>
