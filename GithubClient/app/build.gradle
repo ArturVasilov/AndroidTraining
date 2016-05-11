@@ -71,21 +71,28 @@ dependencies {
 
     compile project(':sqlite')
 
-    testCompile "junit:junit:${junitVersion}"
-    testCompile("org.robolectric:robolectric:${robolectricVersion}") {
+    // unit testing
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-core:2.0.5-beta'
+    testCompile 'org.powermock:powermock-api-mockito:1.6.2'
+    testCompile 'org.powermock:powermock-module-junit4:1.6.2'
+    testCompile 'org.powermock:powermock-module-junit4-rule:1.6.2'
+    testCompile 'org.powermock:powermock-classloading-xstream:1.6.2'
+
+    // robolectric testing
+    testCompile('org.robolectric:robolectric:3.0') {
         exclude group: 'commons-logging', module: 'commons-logging'
         exclude group: 'org.apache.httpcomponents', module: 'httpclient'
     }
-    testCompile "org.mockito:mockito-core:${mockitoVersion}"
-    testCompile "org.powermock:powermock-api-mockito:${powerMockVersion}"
-    testCompile "org.powermock:powermock-module-junit4:${powerMockVersion}"
 
     // UI/Instrumentation testing
-    androidTestCompile "com.android.support:support-v4:${supportVersion}"
-    androidTestCompile "com.android.support:recyclerview-v7:${supportVersion}"
-    androidTestCompile "com.android.support.test.espresso:espresso-core:${espressoVersion}"
-    androidTestCompile "com.android.support.test.espresso:espresso-intents:${espressoVersion}"
-    androidTestCompile "com.android.support.test.espresso:espresso-contrib:${espressoVersion}"
-    androidTestCompile "com.android.support.test:runner:${testRunnerVersion}"
-    androidTestCompile "com.android.support.test:rules:${testRunnerVersion}"
+    androidTestCompile 'com.android.support:support-v4:23.1.1'
+    androidTestCompile 'com.android.support:recyclerview-v7:23.1.1'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.1'
+    androidTestCompile 'com.android.support.test.espresso:espresso-intents:2.2.1'
+    androidTestCompile 'com.android.support.test.espresso:espresso-contrib:2.2.1'
+    androidTestCompile 'com.android.support.test:runner:0.4.1'
+    androidTestCompile 'com.android.support.test:rules:0.4.1'
 }
+
+
