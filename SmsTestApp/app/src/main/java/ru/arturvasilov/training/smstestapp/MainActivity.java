@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity implements SmsAdapter.OnItem
             if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 sendSms();
             }
+
         }
     }
 
@@ -87,6 +88,5 @@ public class MainActivity extends AppCompatActivity implements SmsAdapter.OnItem
             e.printStackTrace();
         }
     }
-
 
 }
