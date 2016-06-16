@@ -1,0 +1,4 @@
+See file:///D:/Git/Github/AndroidTraining/HelloJNI/app/build/tmp/compileHello-jniArm64-v8aDebugAllSharedLibraryHello-jniMainCpp/output.txt for all output for compileHello-jniArm64-v8aDebugAllSharedLibraryHello-jniMainCpp.
+compiling bitmaps.cpp successful.
+
+Finished compileHello-jniArm64-v8aDebugAllSharedLibraryHello-jniMainCpp, see full log file:///D:/Git/Github/AndroidTraining/HelloJNI/app/build/tmp/compileHello-jniArm64-v8aDebugAllSharedLibraryHello-jniMainCpp/output.txt.

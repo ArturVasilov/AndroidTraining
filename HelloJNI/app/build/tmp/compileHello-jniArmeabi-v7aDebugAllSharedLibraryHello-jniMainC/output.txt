@@ -1,0 +1,4 @@
+See file:///D:/Git/Github/AndroidTraining/HelloJNI/app/build/tmp/compileHello-jniArmeabi-v7aDebugAllSharedLibraryHello-jniMainC/output.txt for all output for compileHello-jniArmeabi-v7aDebugAllSharedLibraryHello-jniMainC.
+compiling hello-jni.c successful.
+
+Finished compileHello-jniArmeabi-v7aDebugAllSharedLibraryHello-jniMainC, see full log file:///D:/Git/Github/AndroidTraining/HelloJNI/app/build/tmp/compileHello-jniArmeabi-v7aDebugAllSharedLibraryHello-jniMainC/output.txt.

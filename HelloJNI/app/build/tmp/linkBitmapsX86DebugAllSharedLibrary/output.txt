@@ -1,0 +1,4 @@
+See file:///D:/Git/Github/AndroidTraining/HelloJNI/app/build/tmp/linkBitmapsX86DebugAllSharedLibrary/output.txt for all output for linkBitmapsX86DebugAllSharedLibrary.
+linking libbitmaps.so successful.
+
+Finished linkBitmapsX86DebugAllSharedLibrary, see full log file:///D:/Git/Github/AndroidTraining/HelloJNI/app/build/tmp/linkBitmapsX86DebugAllSharedLibrary/output.txt.

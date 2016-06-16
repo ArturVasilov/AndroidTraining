@@ -1,0 +1,4 @@
+See file:///D:/Git/Github/AndroidTraining/HelloJNI/app/build/tmp/compileHello-jniArmeabiDebugAllSharedLibraryHello-jniMainCpp/output.txt for all output for compileHello-jniArmeabiDebugAllSharedLibraryHello-jniMainCpp.
+compiling bitmaps.cpp successful.
+
+Finished compileHello-jniArmeabiDebugAllSharedLibraryHello-jniMainCpp, see full log file:///D:/Git/Github/AndroidTraining/HelloJNI/app/build/tmp/compileHello-jniArmeabiDebugAllSharedLibraryHello-jniMainCpp/output.txt.

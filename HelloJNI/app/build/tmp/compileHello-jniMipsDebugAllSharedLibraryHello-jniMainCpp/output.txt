@@ -1,0 +1,5 @@
+See file:///D:/Git/Github/AndroidTraining/HelloJNI/app/build/tmp/compileHello-jniMipsDebugAllSharedLibraryHello-jniMainCpp/output.txt for all output for compileHello-jniMipsDebugAllSharedLibraryHello-jniMainCpp.
+compiling bitmaps.cpp successful.
+clang++.exe: warning: optimization flag '-finline-functions' is not supported
+
+Finished compileHello-jniMipsDebugAllSharedLibraryHello-jniMainCpp, see full log file:///D:/Git/Github/AndroidTraining/HelloJNI/app/build/tmp/compileHello-jniMipsDebugAllSharedLibraryHello-jniMainCpp/output.txt.

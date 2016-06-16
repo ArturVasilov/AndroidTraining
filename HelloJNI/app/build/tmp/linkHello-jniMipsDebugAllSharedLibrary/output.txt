@@ -1,0 +1,4 @@
+See file:///D:/Git/Github/AndroidTraining/HelloJNI/app/build/tmp/linkHello-jniMipsDebugAllSharedLibrary/output.txt for all output for linkHello-jniMipsDebugAllSharedLibrary.
+linking libhello-jni.so successful.
+
+Finished linkHello-jniMipsDebugAllSharedLibrary, see full log file:///D:/Git/Github/AndroidTraining/HelloJNI/app/build/tmp/linkHello-jniMipsDebugAllSharedLibrary/output.txt.

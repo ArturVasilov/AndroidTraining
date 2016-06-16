@@ -1,0 +1,4 @@
+See file:///D:/Git/Github/AndroidTraining/HelloJNI/app/build/tmp/linkHello-jniArm64-v8aDebugAllSharedLibrary/output.txt for all output for linkHello-jniArm64-v8aDebugAllSharedLibrary.
+linking libhello-jni.so successful.
+
+Finished linkHello-jniArm64-v8aDebugAllSharedLibrary, see full log file:///D:/Git/Github/AndroidTraining/HelloJNI/app/build/tmp/linkHello-jniArm64-v8aDebugAllSharedLibrary/output.txt.

@@ -1,0 +1,4 @@
+See file:///D:/Git/Github/AndroidTraining/HelloJNI/app/build/tmp/compileBitmapsX86DebugAllSharedLibraryBitmapsMainC/output.txt for all output for compileBitmapsX86DebugAllSharedLibraryBitmapsMainC.
+compiling hello-jni.c successful.
+
+Finished compileBitmapsX86DebugAllSharedLibraryBitmapsMainC, see full log file:///D:/Git/Github/AndroidTraining/HelloJNI/app/build/tmp/compileBitmapsX86DebugAllSharedLibraryBitmapsMainC/output.txt.
