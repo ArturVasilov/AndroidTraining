@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GCMessaging</string>
+    <string name="send_gcm">Send push message</string>
+
+    <string name="gcm_api_key_hint">GCM API Key</string>
+    <string name="gcm_id_hint">GCM registration id</string>
+    <string name="gcm_json_data">JSON Data</string>
+</resources>
