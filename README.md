@@ -1,19 +1,28 @@
-To know:
+#### Nearest plans:
 
-* Android manifest (launch mode, flags, etc.)
-* WebView
-* Picasso / Glide / Fresco
-* Services, Wakefull Services
-* Git 
-
-To learn:
-
-* Understand Android Context, e.g. possiblemobile.com/2013/06/context/
-* Perfomance, reference to udacity course https://www.udacity.com/course/android-performance--ud825
-* ContentProvider
-* Touch / Multitouch
-* Design Patterns
-* Gradle build system https://developer.android.com/intl/ru/tools/building/configuring-gradle.html https://developer.android.com/intl/ru/tools/building/plugin-for-gradle.html http://trickyandroid.com/gradle-tip-2-understanding-syntax/
-* RxJava
-* Android sensors
+* Git in details
+* ConstraintLayout
+* Android System
+* Java & Android Memory Model
+* RecyclerView: Custom Layout Manager
+* CoordinatorLayout: Custom Behaviour
+* Notifications in Android N
+* Google Agera
+* SyncAdapter
+* JobScheduler
+* Firebase
+* Profiling
+* AIDL
+* Dagger2
+* Media
+* Google Guava
+* Mosby
+* Camera API
+* Realm
+* KiosMode
+* Social Integration
+* Blur effect
+* RenderScript
+* Custom Keyboard
+* Gradle plugin
  
